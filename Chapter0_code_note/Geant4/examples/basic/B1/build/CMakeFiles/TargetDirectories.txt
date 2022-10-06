@@ -1,0 +1,8 @@
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/install/strip.dir
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/install/local.dir
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/install.dir
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/list_install_components.dir
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/rebuild_cache.dir
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/edit_cache.dir
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/B1.dir
+/home/weikang/H-homework/Geant4/examples/basic/B1/build/CMakeFiles/exampleB1.dir

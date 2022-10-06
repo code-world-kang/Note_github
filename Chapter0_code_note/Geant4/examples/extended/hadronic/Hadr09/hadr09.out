@@ -1,0 +1,1494 @@
+=== Test of the HadronicGenerator ===
+
+=================  Configuration ==================
+Model: FTFP_BERT_ATL
+Ekin: [ 1 , 30 ] GeV
+Number of collisions:  1000
+Number of projectiles: 30
+Number of materials:   11
+===================================================
+
+
+ Initial seed = 1637156782
+
+
+================================================================================
+                                 INCL++ WARNING                                 
+INCL++/G4ExcitationHandler could not use its own level-density parameter for fission
+================================================================================
+
+	 Collision 0  projectile=xi-  Ekin(MeV)=3590.93  material=G4_Be  --->  #secondaries=7
+	 	 List of produced secondaries: 
+	 	 	 j=0	sigma+	 p=(-1134.76,2050.82,1093.132846.59) MeV
+	 	 	 j=1	neutron	 p=(686.65,1337.7,642.7681885.97) MeV
+	 	 	 j=2	kaon-	 p=(588.529,632.96,437.6621087.32) MeV
+	 	 	 j=3	neutron	 p=(30.972,-9.79029,42.0428941.066) MeV
+	 	 	 j=4	gamma	 p=(-0.00187681,0.0317335,0.1156630.119952) MeV
+	 	 	 j=5	triton	 p=(-50.6645,49.912,-34.07362810.03) MeV
+	 	 	 j=6	alpha	 p=(-54.2559,191.213,-108.973734.26) MeV
+	 Collision 1  projectile=pi+  Ekin(MeV)=14053.7  material=G4_Be=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy (MeV)            0.1
+Pre-compound excitation high energy (MeV)           30
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy (keV)                         0.01
+Min energy per nucleon for multifragmentation (MeV) 2e+05
+Limit excitation energy for Fermi BreakUp (MeV)     20
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      0
+Time limit for long lived isomeres (ns)             1
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Electron internal conversion ID                     0
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+  --->  #secondaries=11
+	 Collision 2  projectile=anti_neutron  Ekin(MeV)=7009.79  material=G4_Pb  --->  #secondaries=88
+	 Collision 3  projectile=pi+  Ekin(MeV)=10314  material=G4_Cu  --->  #secondaries=47
+	 Collision 4  projectile=xi0  Ekin(MeV)=13075.1  material=G4_Fe  --->  #secondaries=38
+	 Collision 5  projectile=alpha  Ekin(MeV)=16141.5  material=G4_C=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy (MeV)            0.1
+Pre-compound excitation high energy (MeV)           30
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy (keV)                         0.01
+Min energy per nucleon for multifragmentation (MeV) 2e+05
+Limit excitation energy for Fermi BreakUp (MeV)     20
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      0
+Time limit for long lived isomeres (ns)             1
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Electron internal conversion ID                     0
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+  --->  #secondaries=15
+	 Collision 6  projectile=deuteron  Ekin(MeV)=22670.9  material=G4_Al  --->  #secondaries=23
+	 Collision 7  projectile=triton  Ekin(MeV)=3122.59  material=G4_C  --->  #secondaries=8
+	 Collision 8  projectile=anti_sigma+  Ekin(MeV)=26669.4  material=G4_Si  --->  #secondaries=31
+	 Collision 9  projectile=anti_omega-  Ekin(MeV)=28013.6  material=G4_C  --->  #secondaries=19
+	 Collision 10  projectile=xi0  Ekin(MeV)=3553.43  material=G4_Si  --->  #secondaries=8
+	 Collision 11  projectile=proton  Ekin(MeV)=22322  material=G4_Si  --->  #secondaries=36
+	 Collision 12  projectile=anti_sigma-  Ekin(MeV)=29731.5  material=G4_Cu  --->  #secondaries=61
+	 Collision 13  projectile=pi-  Ekin(MeV)=26373  material=G4_Pb  --->  #secondaries=66
+	 Collision 14  projectile=anti_alpha  Ekin(MeV)=6105.14  material=G4_Si  --->  #secondaries=34
+	 Collision 15  projectile=pi-  Ekin(MeV)=5298.4  material=G4_Be  --->  #secondaries=9
+	 Collision 16  projectile=kaon+  Ekin(MeV)=11232.9  material=G4_Be  --->  #secondaries=10
+	 Collision 17  projectile=anti_He3  Ekin(MeV)=15922.7  material=G4_He  --->  #secondaries=8
+	 Collision 18  projectile=kaon0L  Ekin(MeV)=16356.3  material=G4_Pb  --->  #secondaries=50
+	 Collision 19  projectile=anti_triton  Ekin(MeV)=12888.9  material=G4_H  --->  #secondaries=4
+	 Collision 20  projectile=lambda  Ekin(MeV)=4812.43  material=G4_Ar  --->  #secondaries=17
+	 Collision 21  projectile=anti_xi-  Ekin(MeV)=21138.4  material=G4_Pb  --->  #secondaries=52
+	 Collision 22  projectile=proton  Ekin(MeV)=13636.1  material=G4_He  --->  #secondaries=12
+	 Collision 23  projectile=anti_triton  Ekin(MeV)=14964.5  material=G4_He  --->  #secondaries=12
+	 Collision 24  projectile=pi+  Ekin(MeV)=21896.3  material=G4_Be  --->  #secondaries=13
+	 Collision 25  projectile=anti_sigma-  Ekin(MeV)=6702.97  material=G4_Al  --->  #secondaries=19
+	 Collision 26  projectile=anti_sigma+  Ekin(MeV)=1253.4  material=G4_H  --->  #secondaries=3
+	 Collision 27  projectile=proton  Ekin(MeV)=21422.6  material=G4_Pb  --->  #secondaries=102
+	 Collision 28  projectile=proton  Ekin(MeV)=3816.02  material=G4_Pb  --->  #secondaries=16
+	 Collision 29  projectile=deuteron  Ekin(MeV)=3360.96  material=G4_Be  --->  #secondaries=7
+	 Collision 30  projectile=anti_xi0  Ekin(MeV)=25846.1  material=G4_Fe  --->  #secondaries=28
+	 Collision 31  projectile=lambda  Ekin(MeV)=4872.68  material=G4_Fe  --->  #secondaries=8
+	 Collision 32  projectile=anti_xi0  Ekin(MeV)=18784.9  material=G4_W  --->  #secondaries=43
+	 Collision 33  projectile=xi-  Ekin(MeV)=3815.56  material=G4_C  --->  #secondaries=8
+	 Collision 34  projectile=xi-  Ekin(MeV)=13019.3  material=G4_Ar  --->  #secondaries=46
+	 Collision 35  projectile=anti_omega-  Ekin(MeV)=10195.4  material=G4_C  --->  #secondaries=14
+	 Collision 36  projectile=kaon0L  Ekin(MeV)=4013.75  material=G4_Si  --->  #secondaries=11
+	 Collision 37  projectile=kaon0L  Ekin(MeV)=17369  material=G4_W  --->  #secondaries=69
+	 Collision 38  projectile=alpha  Ekin(MeV)=12114.5  material=G4_Be  --->  #secondaries=8
+	 Collision 39  projectile=triton  Ekin(MeV)=13172.8  material=G4_Fe  --->  #secondaries=14
+	 Collision 40  projectile=anti_sigma-  Ekin(MeV)=9755.26  material=G4_Si  --->  #secondaries=23
+	 Collision 41  projectile=anti_alpha  Ekin(MeV)=25159.2  material=G4_Ar  --->  #secondaries=24
+	 Collision 42  projectile=pi-  Ekin(MeV)=11755.5  material=G4_H  --->  #secondaries=7
+	 Collision 43  projectile=deuteron  Ekin(MeV)=21593.9  material=G4_Fe  --->  #secondaries=18
+	 Collision 44  projectile=neutron  Ekin(MeV)=15306.9  material=G4_Si  --->  #secondaries=30
+	 Collision 45  projectile=lambda  Ekin(MeV)=10162.2  material=G4_He  --->  #secondaries=5
+	 Collision 46  projectile=omega-  Ekin(MeV)=16839.8  material=G4_Be  --->  #secondaries=4
+	 Collision 47  projectile=anti_He3  Ekin(MeV)=2098.97  material=G4_He  --->  #secondaries=6
+	 Collision 48  projectile=alpha  Ekin(MeV)=4348.18  material=G4_H  --->  #secondaries=5
+	 Collision 49  projectile=anti_xi0  Ekin(MeV)=11836.8  material=G4_Pb  --->  #secondaries=52
+	 Collision 50  projectile=xi-  Ekin(MeV)=13665.3  material=G4_Ar  --->  #secondaries=24
+	 Collision 51  projectile=kaon0L  Ekin(MeV)=26678.3  material=G4_Si  --->  #secondaries=13
+	 Collision 52  projectile=anti_alpha  Ekin(MeV)=5966.88  material=G4_Cu  --->  #secondaries=45
+	 Collision 53  projectile=anti_alpha  Ekin(MeV)=27744.7  material=G4_Ar  --->  #secondaries=34
+	 Collision 54  projectile=omega-  Ekin(MeV)=18355.4  material=G4_W  --->  #secondaries=38
+	 Collision 55  projectile=anti_sigma-  Ekin(MeV)=13940.7  material=G4_Ar  --->  #secondaries=25
+	 Collision 56  projectile=anti_He3  Ekin(MeV)=26371.3  material=G4_W  --->  #secondaries=71
+	 Collision 57  projectile=anti_sigma-  Ekin(MeV)=10525.9  material=G4_Si  --->  #secondaries=16
+	 Collision 58  projectile=proton  Ekin(MeV)=27505.9  material=G4_Fe  --->  #secondaries=40
+	 Collision 59  projectile=sigma+  Ekin(MeV)=24668  material=G4_Al  --->  #secondaries=18
+	 Collision 60  projectile=anti_xi-  Ekin(MeV)=22483.3  material=G4_He  --->  #secondaries=11
+	 Collision 61  projectile=sigma+  Ekin(MeV)=13241.1  material=G4_Cu  --->  #secondaries=15
+	 Collision 62  projectile=triton  Ekin(MeV)=4518.89  material=G4_Fe  --->  #secondaries=16
+	 Collision 63  projectile=omega-  Ekin(MeV)=21648.5  material=G4_C  --->  #secondaries=23
+	 Collision 64  projectile=anti_He3  Ekin(MeV)=23463.5  material=G4_Ar  --->  #secondaries=19
+	 Collision 65  projectile=sigma+  Ekin(MeV)=12133.4  material=G4_H  --->  #secondaries=9
+	 Collision 66  projectile=anti_xi0  Ekin(MeV)=20476.7  material=G4_Pb  --->  #secondaries=54
+	 Collision 67  projectile=anti_sigma-  Ekin(MeV)=23577.2  material=G4_H  --->  #secondaries=3
+	 Collision 68  projectile=xi-  Ekin(MeV)=13645.7  material=G4_W  --->  #secondaries=53
+	 Collision 69  projectile=proton  Ekin(MeV)=26117.8  material=G4_Al  --->  #secondaries=15
+	 Collision 70  projectile=omega-  Ekin(MeV)=29278.1  material=G4_Cu  --->  #secondaries=41
+	 Collision 71  projectile=anti_triton  Ekin(MeV)=25131.4  material=G4_Fe  --->  #secondaries=32
+	 Collision 72  projectile=anti_neutron  Ekin(MeV)=28063.7  material=G4_H  --->  #secondaries=11
+	 Collision 73  projectile=kaon0L  Ekin(MeV)=8062.7  material=G4_C  --->  #secondaries=15
+	 Collision 74  projectile=anti_He3  Ekin(MeV)=28504.7  material=G4_W  --->  #secondaries=94
+	 Collision 75  projectile=kaon+  Ekin(MeV)=18075.9  material=G4_Si  --->  #secondaries=11
+	 Collision 76  projectile=anti_He3  Ekin(MeV)=24981.2  material=G4_Pb  --->  #secondaries=71
+	 Collision 77  projectile=anti_alpha  Ekin(MeV)=18649.8  material=G4_W  --->  #secondaries=34
+	 Collision 78  projectile=anti_deuteron  Ekin(MeV)=12238.5  material=G4_Fe  --->  #secondaries=28
+	 Collision 79  projectile=kaon0S  Ekin(MeV)=16885.2  material=G4_Be  --->  #secondaries=6
+	 Collision 80  projectile=anti_alpha  Ekin(MeV)=20375.6  material=G4_Be  --->  #secondaries=16
+	 Collision 81  projectile=anti_sigma+  Ekin(MeV)=11252.5  material=G4_Si  --->  #secondaries=27
+	 Collision 82  projectile=triton  Ekin(MeV)=28266.2  material=G4_C  --->  #secondaries=12
+	 Collision 83  projectile=triton  Ekin(MeV)=24901.3  material=G4_He  --->  #secondaries=7
+	 Collision 84  projectile=alpha  Ekin(MeV)=2728.37  material=G4_W  --->  #secondaries=15
+	 Collision 85  projectile=pi-  Ekin(MeV)=26712.6  material=G4_Ar  --->  #secondaries=19
+	 Collision 86  projectile=omega-  Ekin(MeV)=15796.4  material=G4_He  --->  #secondaries=5
+	 Collision 87  projectile=kaon-  Ekin(MeV)=4276.97  material=G4_Pb  --->  #secondaries=87
+	 Collision 88  projectile=anti_sigma+  Ekin(MeV)=10433.4  material=G4_H  --->  #secondaries=7
+	 Collision 89  projectile=kaon+  Ekin(MeV)=1973.94  material=G4_Be  --->  #secondaries=9
+	 Collision 90  projectile=omega-  Ekin(MeV)=21444.1  material=G4_Fe  --->  #secondaries=37
+	 Collision 91  projectile=kaon0L  Ekin(MeV)=4244.68  material=G4_H  --->  #secondaries=6
+	 Collision 92  projectile=neutron  Ekin(MeV)=23133.8  material=G4_Si  --->  #secondaries=27
+	 Collision 93  projectile=anti_sigma-  Ekin(MeV)=24580.9  material=G4_Al  --->  #secondaries=25
+	 Collision 94  projectile=anti_lambda  Ekin(MeV)=15719.5  material=G4_Si  --->  #secondaries=5
+	 Collision 95  projectile=anti_omega-  Ekin(MeV)=11181  material=G4_Al  --->  #secondaries=11
+	 Collision 96  projectile=pi-  Ekin(MeV)=15064.7  material=G4_Ar  --->  #secondaries=19
+	 Collision 97  projectile=alpha  Ekin(MeV)=28439.7  material=G4_Al  --->  #secondaries=20
+	 Collision 98  projectile=kaon0S  Ekin(MeV)=13258.4  material=G4_Al  --->  #secondaries=17
+	 Collision 99  projectile=anti_He3  Ekin(MeV)=28446.7  material=G4_W  --->  #secondaries=72
+	 Collision 100  projectile=anti_deuteron  Ekin(MeV)=20793.8  material=G4_Pb  --->  #secondaries=84
+	 	 List of produced secondaries: 
+	 	 	 j=0	pi0	 p=(202.348,843.911,-107.066884.766) MeV
+	 	 	 j=1	pi-	 p=(323.754,267.902,-15.7569443.076) MeV
+	 	 	 j=2	proton	 p=(-513.358,688.773,-53.15311273.23) MeV
+	 	 	 j=3	pi+	 p=(382.788,364.805,13.9965547.07) MeV
+	 	 	 j=4	anti_proton	 p=(600.879,2448.79,158.112694.99) MeV
+	 	 	 j=5	pi-	 p=(216.743,197.81,-74.3667333.342) MeV
+	 	 	 j=6	neutron	 p=(-612.833,840.1,-555.3321507.48) MeV
+	 	 	 j=7	pi-	 p=(1011.59,1048.59,714.6221628.81) MeV
+	 	 	 j=8	pi0	 p=(748.554,1465.7,154.3871658.52) MeV
+	 	 	 j=9	pi+	 p=(-141.306,196.566,84.712291.996) MeV
+	 	 	 j=10	pi-	 p=(272.508,1528.98,-79.75281561.37) MeV
+	 	 	 j=11	neutron	 p=(302.152,643.354,117.1481183.94) MeV
+	 	 	 j=12	pi+	 p=(31.4532,503.89,-61.1187527.361) MeV
+	 	 	 j=13	eta	 p=(-201.952,887.483,254.0461092.29) MeV
+	 	 	 j=14	proton	 p=(531.531,607.993,-237.7111260.57) MeV
+	 	 	 j=15	pi0	 p=(126.073,601.25,142.483644.915) MeV
+	 	 	 j=16	pi-	 p=(238.042,495.495,321.615651.993) MeV
+	 	 	 j=17	neutron	 p=(339.093,-289.305,-373.0711104.83) MeV
+	 	 	 j=18	proton	 p=(-240.899,306.754,60.52881017.91) MeV
+	 	 	 j=19	neutron	 p=(-146.755,-148.639,-118.886969.818) MeV
+	 	 	 j=20	neutron	 p=(-101.557,143.687,-111.847962.42) MeV
+	 	 	 j=21	proton	 p=(-128.763,-505.851,12.95251073.77) MeV
+	 	 	 j=22	pi0	 p=(-14.4273,375.675,-41.3746401.585) MeV
+	 	 	 j=23	anti_neutron	 p=(575.653,3087.37,913.293402.95) MeV
+	 	 	 j=24	pi0	 p=(-1.61657,-107.907,-26.7058174.867) MeV
+	 	 	 j=25	neutron	 p=(102.807,511.086,528.5881197.48) MeV
+	 	 	 j=26	pi-	 p=(13.5205,442.073,-295.21549.764) MeV
+	 	 	 j=27	pi+	 p=(484.028,478.009,361.197782.764) MeV
+	 	 	 j=28	deuteron	 p=(208.214,-135.954,-63.31511893.08) MeV
+	 	 	 j=29	deuteron	 p=(-167.702,470.639,430.6211988.21) MeV
+	 	 	 j=30	deuteron	 p=(57.211,189.065,-10.67071886.02) MeV
+	 	 	 j=31	neutron	 p=(374.278,-100.469,-208.2871037.47) MeV
+	 	 	 j=32	neutron	 p=(-297.266,173.204,14.54991000.68) MeV
+	 	 	 j=33	neutron	 p=(-130.417,286.33,327.7611043.65) MeV
+	 	 	 j=34	neutron	 p=(-304.636,-340.994,-8.678391044.96) MeV
+	 	 	 j=35	neutron	 p=(327.013,106.901,365.2391065.15) MeV
+	 	 	 j=36	proton	 p=(-128.62,-124.941,170.361970.325) MeV
+	 	 	 j=37	neutron	 p=(418.47,-149.435,-439.1741128.32) MeV
+	 	 	 j=38	proton	 p=(118.515,434.85,187.6461057.69) MeV
+	 	 	 j=39	deuteron	 p=(33.4686,339.635,409.2531949.84) MeV
+	 	 	 j=40	proton	 p=(146.455,-75.6545,-82.7726956.231) MeV
+	 	 	 j=41	neutron	 p=(-154.115,-261.096,119.13994.433) MeV
+	 	 	 j=42	proton	 p=(264.166,234.111,-114.6211009) MeV
+	 	 	 j=43	neutron	 p=(-188.762,127.293,103.597972.291) MeV
+	 	 	 j=44	neutron	 p=(-42.9907,-104.751,-38.2835947.138) MeV
+	 	 	 j=45	neutron	 p=(131.198,-109.624,283.044996.056) MeV
+	 	 	 j=46	neutron	 p=(42.8821,214.035,-223.543990.154) MeV
+	 	 	 j=47	proton	 p=(62.1135,180.734,-278.507997.218) MeV
+	 	 	 j=48	proton	 p=(-69.0661,-119.255,25.413948.679) MeV
+	 	 	 j=49	neutron	 p=(-175.169,221.981,-124.075989.008) MeV
+	 	 	 j=50	neutron	 p=(-215.363,93.8827,-21.181968.724) MeV
+	 	 	 j=51	neutron	 p=(-75.9548,113.349,-115.307956.397) MeV
+	 	 	 j=52	proton	 p=(-218.762,-33.2577,33.1574964.581) MeV
+	 	 	 j=53	neutron	 p=(142.426,-167.938,71.5309967.671) MeV
+	 	 	 j=54	neutron	 p=(-77.1729,-93.6537,-96.5536952.277) MeV
+	 	 	 j=55	neutron	 p=(-133.434,-173.052,-89.8549968.818) MeV
+	 	 	 j=56	deuteron	 p=(129.148,90.6386,241.3341897.65) MeV
+	 	 	 j=57	neutron	 p=(61.4816,-140.733,7.65906952.065) MeV
+	 	 	 j=58	neutron	 p=(-23.5612,117.555,-6.27656947.205) MeV
+	 	 	 j=59	neutron	 p=(49.9797,-58.4912,-41.6892943.631) MeV
+	 	 	 j=60	neutron	 p=(3.65676,161.675,-42.3972954.323) MeV
+	 	 	 j=61	Ne20	 p=(1642.33,1952.08,1211.9918830.7) MeV
+	 	 	 j=62	neutron	 p=(-14.368,-36.7852,28.1363940.816) MeV
+	 	 	 j=63	neutron	 p=(-16.0499,55.0842,53.7999942.852) MeV
+	 	 	 j=64	neutron	 p=(-10.3609,34.3424,-43.6253941.261) MeV
+	 	 	 j=65	neutron	 p=(20.8924,1.86123,1.26327939.8) MeV
+	 	 	 j=66	neutron	 p=(43.4901,24.8197,-76.059943.968) MeV
+	 	 	 j=67	gamma	 p=(-0.531749,0.973405,0.4755631.20683) MeV
+	 	 	 j=68	gamma	 p=(-0.429869,-0.0929058,-0.8950140.997231) MeV
+	 	 	 j=69	gamma	 p=(-0.357896,-0.441703,0.7594930.948694) MeV
+	 	 	 j=70	gamma	 p=(0.703046,0.614334,-0.3670651.0032) MeV
+	 	 	 j=71	gamma	 p=(0.195264,-0.737748,-0.6236380.985558) MeV
+	 	 	 j=72	gamma	 p=(0.680046,-0.167446,0.508960.86576) MeV
+	 	 	 j=73	gamma	 p=(0.340594,-0.578515,0.4562210.811679) MeV
+	 	 	 j=74	gamma	 p=(-0.291808,0.397067,0.5302570.723869) MeV
+	 	 	 j=75	gamma	 p=(-0.355448,0.020656,0.2975960.46404) MeV
+	 	 	 j=76	gamma	 p=(0.840914,-0.287143,-0.1704310.904784) MeV
+	 	 	 j=77	gamma	 p=(-0.219392,0.0760892,0.08108020.24596) MeV
+	 	 	 j=78	gamma	 p=(-0.142339,0.0449485,-0.2177940.264036) MeV
+	 	 	 j=79	gamma	 p=(-0.206604,-0.616147,-0.1146330.659896) MeV
+	 	 	 j=80	gamma	 p=(-0.308066,-0.358667,-0.4899340.680869) MeV
+	 	 	 j=81	gamma	 p=(-0.523314,0.00228221,-0.1988280.559818) MeV
+	 	 	 j=82	gamma	 p=(-0.192596,0.165009,-0.3252790.412465) MeV
+	 	 	 j=83	Ce134	 p=(-517.696,397.447,-748.266124710) MeV
+	 Collision 101  projectile=pi-  Ekin(MeV)=6176.77  material=G4_Al  --->  #secondaries=21
+	 Collision 102  projectile=anti_sigma+  Ekin(MeV)=12318.4  material=G4_Ar  --->  #secondaries=20
+	 Collision 103  projectile=anti_xi0  Ekin(MeV)=27762.7  material=G4_H  --->  #secondaries=10
+	 Collision 104  projectile=triton  Ekin(MeV)=7353.55  material=G4_C  --->  #secondaries=6
+	 Collision 105  projectile=anti_triton  Ekin(MeV)=7674.79  material=G4_Be  --->  #secondaries=19
+	 Collision 106  projectile=kaon0S  Ekin(MeV)=15905.5  material=G4_Al  --->  #secondaries=13
+	 Collision 107  projectile=anti_triton  Ekin(MeV)=18651.8  material=G4_Si  --->  #secondaries=16
+	 Collision 108  projectile=xi0  Ekin(MeV)=11929.1  material=G4_Cu  --->  #secondaries=29
+	 Collision 109  projectile=anti_sigma+  Ekin(MeV)=22729.6  material=G4_Be  --->  #secondaries=10
+	 Collision 110  projectile=He3  Ekin(MeV)=19697  material=G4_W  --->  #secondaries=76
+	 Collision 111  projectile=anti_sigma-  Ekin(MeV)=10460  material=G4_Be  --->  #secondaries=7
+	 Collision 112  projectile=anti_proton  Ekin(MeV)=6085.77  material=G4_H  --->  #secondaries=8
+	 Collision 113  projectile=anti_deuteron  Ekin(MeV)=10412.5  material=G4_Si  --->  #secondaries=23
+	 Collision 114  projectile=kaon-  Ekin(MeV)=5791.16  material=G4_Al  --->  #secondaries=29
+	 Collision 115  projectile=anti_alpha  Ekin(MeV)=12375.7  material=G4_Be  --->  #secondaries=11
+	 Collision 116  projectile=anti_xi-  Ekin(MeV)=18783.5  material=G4_Be  --->  #secondaries=10
+	 Collision 117  projectile=alpha  Ekin(MeV)=19700.6  material=G4_He  --->  #secondaries=7
+	 Collision 118  projectile=anti_neutron  Ekin(MeV)=13247.2  material=G4_W  --->  #secondaries=44
+	 Collision 119  projectile=anti_He3  Ekin(MeV)=11708.7  material=G4_C  --->  #secondaries=13
+	 Collision 120  projectile=anti_triton  Ekin(MeV)=11295.3  material=G4_H  --->  #secondaries=8
+	 Collision 121  projectile=xi0  Ekin(MeV)=11996.3  material=G4_Si  --->  #secondaries=25
+	 Collision 122  projectile=anti_neutron  Ekin(MeV)=6504.51  material=G4_Si  --->  #secondaries=15
+	 Collision 123  projectile=anti_deuteron  Ekin(MeV)=19756.7  material=G4_W  --->  #secondaries=27
+	 Collision 124  projectile=neutron  Ekin(MeV)=2354.31  material=G4_Be  --->  #secondaries=6
+	 Collision 125  projectile=omega-  Ekin(MeV)=13871.2  material=G4_H  --->  #secondaries=8
+	 Collision 126  projectile=anti_He3  Ekin(MeV)=4756.44  material=G4_Cu  --->  #secondaries=25
+	 Collision 127  projectile=triton  Ekin(MeV)=20220  material=G4_Pb  --->  #secondaries=46
+	 Collision 128  projectile=kaon0S  Ekin(MeV)=22286.5  material=G4_Fe  --->  #secondaries=19
+	 Collision 129  projectile=pi+  Ekin(MeV)=15035.2  material=G4_Si  --->  #secondaries=17
+	 Collision 130  projectile=anti_proton  Ekin(MeV)=10076  material=G4_Cu  --->  #secondaries=28
+	 Collision 131  projectile=pi+  Ekin(MeV)=26513.7  material=G4_C  --->  #secondaries=23
+	 Collision 132  projectile=anti_deuteron  Ekin(MeV)=25449.4  material=G4_Pb  --->  #secondaries=62
+	 Collision 133  projectile=anti_lambda  Ekin(MeV)=19262.8  material=G4_Be  --->  #secondaries=17
+	 Collision 134  projectile=pi-  Ekin(MeV)=7535.82  material=G4_Fe  --->  #secondaries=29
+	 Collision 135  projectile=anti_lambda  Ekin(MeV)=10714.1  material=G4_Be  --->  #secondaries=12
+	 Collision 136  projectile=anti_neutron  Ekin(MeV)=15700.2  material=G4_Al  --->  #secondaries=28
+	 Collision 137  projectile=anti_triton  Ekin(MeV)=9288.1  material=G4_Pb  --->  #secondaries=81
+	 Collision 138  projectile=deuteron  Ekin(MeV)=19650.2  material=G4_H  --->  #secondaries=9
+	 Collision 139  projectile=anti_xi0  Ekin(MeV)=5006.89  material=G4_He  --->  #secondaries=8
+	 Collision 140  projectile=anti_xi0  Ekin(MeV)=22442.3  material=G4_Ar  --->  #secondaries=37
+	 Collision 141  projectile=anti_omega-  Ekin(MeV)=22557  material=G4_H  --->  #secondaries=5
+	 Collision 142  projectile=anti_deuteron  Ekin(MeV)=11602.8  material=G4_H  --->  #secondaries=8
+	 Collision 143  projectile=anti_sigma-  Ekin(MeV)=9471.79  material=G4_Ar  --->  #secondaries=19
+	 Collision 144  projectile=xi0  Ekin(MeV)=4468.53  material=G4_Cu  --->  #secondaries=10
+	 Collision 145  projectile=anti_triton  Ekin(MeV)=26119.6  material=G4_Cu  --->  #secondaries=21
+	 Collision 146  projectile=pi+  Ekin(MeV)=25809.1  material=G4_H  --->  #secondaries=9
+	 Collision 147  projectile=anti_sigma-  Ekin(MeV)=11296.6  material=G4_He  --->  #secondaries=9
+	 Collision 148  projectile=neutron  Ekin(MeV)=18530.6  material=G4_H  --->  #secondaries=4
+	 Collision 149  projectile=anti_omega-  Ekin(MeV)=13259.4  material=G4_C  --->  #secondaries=21
+	 Collision 150  projectile=anti_xi-  Ekin(MeV)=16472.6  material=G4_H  --->  #secondaries=4
+	 Collision 151  projectile=anti_omega-  Ekin(MeV)=29939.8  material=G4_Al  --->  #secondaries=22
+	 Collision 152  projectile=anti_sigma+  Ekin(MeV)=12077.4  material=G4_Pb  --->  #secondaries=49
+	 Collision 153  projectile=kaon+  Ekin(MeV)=15302.2  material=G4_He  --->  #secondaries=5
+	 Collision 154  projectile=xi0  Ekin(MeV)=4849.26  material=G4_Cu  --->  #secondaries=24
+	 Collision 155  projectile=kaon-  Ekin(MeV)=23487.2  material=G4_C  --->  #secondaries=12
+	 Collision 156  projectile=anti_sigma-  Ekin(MeV)=18950  material=G4_W  --->  #secondaries=54
+	 Collision 157  projectile=anti_He3  Ekin(MeV)=4882.05  material=G4_Be  --->  #secondaries=17
+	 Collision 158  projectile=anti_He3  Ekin(MeV)=7827.02  material=G4_H  --->  #secondaries=6
+	 Collision 159  projectile=pi+  Ekin(MeV)=2804.44  material=G4_W  --->  #secondaries=19
+	 Collision 160  projectile=anti_sigma+  Ekin(MeV)=14738.9  material=G4_Al  --->  #secondaries=14
+	 Collision 161  projectile=anti_proton  Ekin(MeV)=15563.5  material=G4_Pb  --->  #secondaries=12
+	 Collision 162  projectile=anti_alpha  Ekin(MeV)=19095.4  material=G4_Ar  --->  #secondaries=20
+	 Collision 163  projectile=xi0  Ekin(MeV)=24726.5  material=G4_C  --->  #secondaries=9
+	 Collision 164  projectile=pi-  Ekin(MeV)=25244.6  material=G4_C  --->  #secondaries=14
+	 Collision 165  projectile=proton  Ekin(MeV)=18368.3  material=G4_C  --->  #secondaries=17
+	 Collision 166  projectile=anti_sigma-  Ekin(MeV)=16404.1  material=G4_Fe  --->  #secondaries=50
+	 Collision 167  projectile=omega-  Ekin(MeV)=4857.63  material=G4_H  --->  #secondaries=3
+	 Collision 168  projectile=neutron  Ekin(MeV)=18567  material=G4_Pb  --->  #secondaries=101
+	 Collision 169  projectile=anti_sigma-  Ekin(MeV)=11127.9  material=G4_Be  --->  #secondaries=10
+	 Collision 170  projectile=anti_lambda  Ekin(MeV)=28994.1  material=G4_Si  --->  #secondaries=10
+	 Collision 171  projectile=pi-  Ekin(MeV)=3651.02  material=G4_Al  --->  #secondaries=14
+	 Collision 172  projectile=neutron  Ekin(MeV)=12237.3  material=G4_Pb  --->  #secondaries=68
+	 Collision 173  projectile=kaon0S  Ekin(MeV)=13977  material=G4_Ar  --->  #secondaries=20
+	 Collision 174  projectile=proton  Ekin(MeV)=6426.67  material=G4_Fe  --->  #secondaries=32
+	 Collision 175  projectile=anti_sigma-  Ekin(MeV)=7837.01  material=G4_Cu  --->  #secondaries=14
+	 Collision 176  projectile=anti_xi0  Ekin(MeV)=23903.9  material=G4_Cu  --->  #secondaries=29
+	 Collision 177  projectile=anti_sigma-  Ekin(MeV)=21491  material=G4_Al  --->  #secondaries=17
+	 Collision 178  projectile=anti_neutron  Ekin(MeV)=11090.5  material=G4_He  --->  #secondaries=10
+	 Collision 179  projectile=kaon-  Ekin(MeV)=27039.6  material=G4_H  --->  #secondaries=9
+	 Collision 180  projectile=deuteron  Ekin(MeV)=9664.26  material=G4_Cu  --->  #secondaries=19
+	 Collision 181  projectile=pi-  Ekin(MeV)=7106.59  material=G4_Ar  --->  #secondaries=8
+	 Collision 182  projectile=deuteron  Ekin(MeV)=9184.47  material=G4_Fe  --->  #secondaries=22
+	 Collision 183  projectile=anti_neutron  Ekin(MeV)=16787.3  material=G4_Al  --->  #secondaries=10
+	 Collision 184  projectile=lambda  Ekin(MeV)=2980.21  material=G4_W  --->  #secondaries=66
+	 Collision 185  projectile=triton  Ekin(MeV)=18776.4  material=G4_Al  --->  #secondaries=23
+	 Collision 186  projectile=anti_lambda  Ekin(MeV)=4377.53  material=G4_Be  --->  #secondaries=12
+	 Collision 187  projectile=proton  Ekin(MeV)=14677.9  material=G4_Be  --->  #secondaries=4
+	 Collision 188  projectile=anti_omega-  Ekin(MeV)=29050.2  material=G4_Fe  --->  #secondaries=27
+	 Collision 189  projectile=anti_neutron  Ekin(MeV)=15908.5  material=G4_Pb  --->  #secondaries=91
+	 Collision 190  projectile=neutron  Ekin(MeV)=26549.3  material=G4_Ar  --->  #secondaries=7
+	 Collision 191  projectile=anti_deuteron  Ekin(MeV)=18315.6  material=G4_W  --->  #secondaries=21
+	 Collision 192  projectile=proton  Ekin(MeV)=27976.1  material=G4_Ar  --->  #secondaries=30
+	 Collision 193  projectile=anti_omega-  Ekin(MeV)=5602.34  material=G4_Be  --->  #secondaries=11
+	 Collision 194  projectile=anti_xi-  Ekin(MeV)=18455.2  material=G4_C  --->  #secondaries=20
+	 Collision 195  projectile=deuteron  Ekin(MeV)=29198.7  material=G4_Pb  --->  #secondaries=49
+	 Collision 196  projectile=pi-  Ekin(MeV)=10557.8  material=G4_Si  --->  #secondaries=19
+	 Collision 197  projectile=kaon-  Ekin(MeV)=26181.9  material=G4_He  --->  #secondaries=7
+	 Collision 198  projectile=pi-  Ekin(MeV)=13886.3  material=G4_Al  --->  #secondaries=22
+	 Collision 199  projectile=kaon-  Ekin(MeV)=24043.6  material=G4_Fe  --->  #secondaries=28
+	 Collision 200  projectile=kaon0L  Ekin(MeV)=25432.4  material=G4_Fe  --->  #secondaries=34
+	 	 List of produced secondaries: 
+	 	 	 j=0	pi0	 p=(794.641,1933.14,1124.982377.46) MeV
+	 	 	 j=1	pi+	 p=(8.54573,239.447,450.772529.229) MeV
+	 	 	 j=2	pi-	 p=(96.9386,427.836,311.771555.987) MeV
+	 	 	 j=3	kaon0L	 p=(1854.29,3915.2,3661.775694.15) MeV
+	 	 	 j=4	pi+	 p=(317.437,1191.93,458.71323.39) MeV
+	 	 	 j=5	pi0	 p=(424.069,766.973,674.3731114.04) MeV
+	 	 	 j=6	proton	 p=(91.0319,65.0055,62.2983946.968) MeV
+	 	 	 j=7	pi0	 p=(-163.066,76.8068,149.249270.155) MeV
+	 	 	 j=8	kaon0S	 p=(591.412,243.909,1020.231302.98) MeV
+	 	 	 j=9	pi0	 p=(272.342,498.42,92.2468591.033) MeV
+	 	 	 j=10	proton	 p=(296.471,301.198,890.0651360.58) MeV
+	 	 	 j=11	pi-	 p=(441.574,946.867,858.9211359.69) MeV
+	 	 	 j=12	kaon+	 p=(1969.96,3238.23,2166.224393.53) MeV
+	 	 	 j=13	pi-	 p=(299.353,25.1903,334.874471.028) MeV
+	 	 	 j=14	pi0	 p=(448.381,540.902,354.915798.626) MeV
+	 	 	 j=15	pi+	 p=(112.465,376.024,119.183433.274) MeV
+	 	 	 j=16	pi-	 p=(632.959,584.605,815.1291194.28) MeV
+	 	 	 j=17	pi0	 p=(-77.8469,245.518,445.737532.202) MeV
+	 	 	 j=18	pi+	 p=(74.0334,90.0927,163.88244.814) MeV
+	 	 	 j=19	pi-	 p=(-78.1444,423.383,445.394634.992) MeV
+	 	 	 j=20	proton	 p=(1432.26,1113.41,1119.422329.06) MeV
+	 	 	 j=21	neutron	 p=(119.74,147.364,-26.6851958.931) MeV
+	 	 	 j=22	neutron	 p=(58.9793,11.6192,-22.2439941.749) MeV
+	 	 	 j=23	deuteron	 p=(-244.194,-242.159,162.1831913.77) MeV
+	 	 	 j=24	deuteron	 p=(-255.739,-146.658,102.721901.42) MeV
+	 	 	 j=25	Cl37	 p=(225.747,394.12,4.9962434427.8) MeV
+	 	 	 j=26	neutron	 p=(-14.8067,-60.0924,113.486948.416) MeV
+	 	 	 j=27	deuteron	 p=(50.3891,-62.2681,53.85831878.1) MeV
+	 	 	 j=28	neutron	 p=(25.1718,196.108,77.2638963.247) MeV
+	 	 	 j=29	alpha	 p=(-45.4244,232.588,-96.75883736.16) MeV
+	 	 	 j=30	neutron	 p=(-37.3194,30.1603,2.43335940.793) MeV
+	 	 	 j=31	proton	 p=(103.961,59.7732,-14.8008946.02) MeV
+	 	 	 j=32	gamma	 p=(-0.608808,1.43543,-1.844072.4149) MeV
+	 	 	 j=33	gamma	 p=(2.03157,3.05609,-0.1960843.67497) MeV
+	 Collision 201  projectile=anti_proton  Ekin(MeV)=16999.6  material=G4_H  --->  #secondaries=6
+	 Collision 202  projectile=anti_He3  Ekin(MeV)=13991.2  material=G4_Be  --->  #secondaries=11
+	 Collision 203  projectile=anti_triton  Ekin(MeV)=9272.5  material=G4_He  --->  #secondaries=12
+	 Collision 204  projectile=proton  Ekin(MeV)=9191.18  material=G4_C  --->  #secondaries=12
+	 Collision 205  projectile=kaon0L  Ekin(MeV)=8797.56  material=G4_Si  --->  #secondaries=21
+	 Collision 206  projectile=pi-  Ekin(MeV)=23904.2  material=G4_W  --->  #secondaries=90
+	 Collision 207  projectile=anti_He3  Ekin(MeV)=20629.2  material=G4_He  --->  #secondaries=7
+	 Collision 208  projectile=triton  Ekin(MeV)=29813.2  material=G4_C  --->  #secondaries=22
+	 Collision 209  projectile=alpha  Ekin(MeV)=8010.13  material=G4_H  --->  #secondaries=7
+	 Collision 210  projectile=anti_lambda  Ekin(MeV)=28669.5  material=G4_Pb  --->  #secondaries=67
+	 Collision 211  projectile=anti_proton  Ekin(MeV)=2408.92  material=G4_Al  --->  #secondaries=12
+	 Collision 212  projectile=pi-  Ekin(MeV)=25753  material=G4_Ar  --->  #secondaries=14
+	 Collision 213  projectile=sigma+  Ekin(MeV)=8967  material=G4_Ar  --->  #secondaries=11
+	 Collision 214  projectile=pi-  Ekin(MeV)=29755.4  material=G4_Fe  --->  #secondaries=29
+	 Collision 215  projectile=anti_neutron  Ekin(MeV)=5688.09  material=G4_Si  --->  #secondaries=7
+	 Collision 216  projectile=anti_triton  Ekin(MeV)=27847.4  material=G4_W  --->  #secondaries=36
+	 Collision 217  projectile=pi+  Ekin(MeV)=1537.67  material=G4_Fe  --->  #secondaries=17
+	 Collision 218  projectile=alpha  Ekin(MeV)=8689.9  material=G4_W  --->  #secondaries=37
+	 Collision 219  projectile=He3  Ekin(MeV)=7960.95  material=G4_Be  --->  #secondaries=9
+	 Collision 220  projectile=kaon+  Ekin(MeV)=20051.2  material=G4_Al  --->  #secondaries=23
+	 Collision 221  projectile=anti_proton  Ekin(MeV)=17274.5  material=G4_Pb  --->  #secondaries=49
+	 Collision 222  projectile=He3  Ekin(MeV)=14889.7  material=G4_Si  --->  #secondaries=34
+	 Collision 223  projectile=kaon+  Ekin(MeV)=17771.3  material=G4_Si  --->  #secondaries=15
+	 Collision 224  projectile=kaon+  Ekin(MeV)=6174.92  material=G4_Fe  --->  #secondaries=10
+	 Collision 225  projectile=kaon+  Ekin(MeV)=17346.6  material=G4_H  --->  #secondaries=5
+	 Collision 226  projectile=sigma+  Ekin(MeV)=28889.1  material=G4_Cu  --->  #secondaries=31
+	 Collision 227  projectile=omega-  Ekin(MeV)=5796.41  material=G4_Ar  --->  #secondaries=33
+	 Collision 228  projectile=anti_xi-  Ekin(MeV)=20869.9  material=G4_Ar  --->  #secondaries=41
+	 Collision 229  projectile=anti_xi-  Ekin(MeV)=24896.7  material=G4_Be  --->  #secondaries=13
+	 Collision 230  projectile=kaon-  Ekin(MeV)=8779.61  material=G4_Fe  --->  #secondaries=31
+	 Collision 231  projectile=anti_deuteron  Ekin(MeV)=26771.9  material=G4_He  --->  #secondaries=4
+	 Collision 232  projectile=sigma-  Ekin(MeV)=5344.31  material=G4_Al  --->  #secondaries=19
+	 Collision 233  projectile=xi0  Ekin(MeV)=11976  material=G4_Pb  --->  #secondaries=64
+	 Collision 234  projectile=deuteron  Ekin(MeV)=9821.78  material=G4_Ar  --->  #secondaries=40
+	 Collision 235  projectile=sigma-  Ekin(MeV)=22227.7  material=G4_He  --->  #secondaries=7
+	 Collision 236  projectile=anti_sigma+  Ekin(MeV)=25142  material=G4_Si  --->  #secondaries=17
+	 Collision 237  projectile=anti_neutron  Ekin(MeV)=13106.8  material=G4_He  --->  #secondaries=4
+	 Collision 238  projectile=anti_deuteron  Ekin(MeV)=4514.84  material=G4_Be  --->  #secondaries=10
+	 Collision 239  projectile=xi0  Ekin(MeV)=19693.9  material=G4_Pb  --->  #secondaries=43
+	 Collision 240  projectile=proton  Ekin(MeV)=28114.3  material=G4_Cu  --->  #secondaries=29
+	 Collision 241  projectile=alpha  Ekin(MeV)=8778.03  material=G4_Al  --->  #secondaries=9
+	 Collision 242  projectile=proton  Ekin(MeV)=1097.4  material=G4_Ar  --->  #secondaries=12
+	 Collision 243  projectile=kaon+  Ekin(MeV)=22481.1  material=G4_Ar  --->  #secondaries=14
+	 Collision 244  projectile=anti_He3  Ekin(MeV)=8985.85  material=G4_Pb  --->  #secondaries=74
+	 Collision 245  projectile=anti_sigma-  Ekin(MeV)=11220.7  material=G4_Al  --->  #secondaries=17
+	 Collision 246  projectile=neutron  Ekin(MeV)=11583.2  material=G4_W  --->  #secondaries=36
+	 Collision 247  projectile=anti_omega-  Ekin(MeV)=7282  material=G4_W  --->  #secondaries=37
+	 Collision 248  projectile=xi0  Ekin(MeV)=26354  material=G4_Cu  --->  #secondaries=49
+	 Collision 249  projectile=anti_sigma+  Ekin(MeV)=19246.8  material=G4_Ar  --->  #secondaries=37
+	 Collision 250  projectile=anti_alpha  Ekin(MeV)=10106.2  material=G4_Al  --->  #secondaries=13
+	 Collision 251  projectile=kaon-  Ekin(MeV)=12114.7  material=G4_H  --->  #secondaries=7
+	 Collision 252  projectile=triton  Ekin(MeV)=21473.6  material=G4_Ar  --->  #secondaries=40
+	 Collision 253  projectile=anti_deuteron  Ekin(MeV)=18864.4  material=G4_Fe  --->  #secondaries=28
+	 Collision 254  projectile=pi-  Ekin(MeV)=15857.6  material=G4_He  --->  #secondaries=8
+	 Collision 255  projectile=proton  Ekin(MeV)=4942.83  material=G4_Al  --->  #secondaries=20
+	 Collision 256  projectile=sigma+  Ekin(MeV)=1168.01  material=G4_Fe  --->  #secondaries=22
+	 Collision 257  projectile=anti_lambda  Ekin(MeV)=23643.9  material=G4_C  --->  #secondaries=18
+	 Collision 258  projectile=kaon0S  Ekin(MeV)=29071.4  material=G4_Ar  --->  #secondaries=25
+	 Collision 259  projectile=anti_sigma-  Ekin(MeV)=27737.9  material=G4_Cu  --->  #secondaries=38
+	 Collision 260  projectile=omega-  Ekin(MeV)=8433.68  material=G4_Pb  --->  #secondaries=44
+	 Collision 261  projectile=pi+  Ekin(MeV)=27948.9  material=G4_Be  --->  #secondaries=15
+	 Collision 262  projectile=omega-  Ekin(MeV)=17195  material=G4_Pb  --->  #secondaries=71
+	 Collision 263  projectile=pi+  Ekin(MeV)=24159.1  material=G4_Pb  --->  #secondaries=70
+	 Collision 264  projectile=anti_sigma+  Ekin(MeV)=28926.9  material=G4_Pb  --->  #secondaries=17
+	 Collision 265  projectile=He3  Ekin(MeV)=22331.6  material=G4_Ar  --->  #secondaries=37
+	 Collision 266  projectile=anti_neutron  Ekin(MeV)=6598.95  material=G4_Fe  --->  #secondaries=14
+	 Collision 267  projectile=anti_sigma-  Ekin(MeV)=10902.6  material=G4_Be  --->  #secondaries=12
+	 Collision 268  projectile=kaon0L  Ekin(MeV)=5834.67  material=G4_Pb  --->  #secondaries=60
+	 Collision 269  projectile=proton  Ekin(MeV)=21182.9  material=G4_H  --->  #secondaries=7
+	 Collision 270  projectile=lambda  Ekin(MeV)=16797.8  material=G4_Si  --->  #secondaries=10
+	 Collision 271  projectile=pi-  Ekin(MeV)=24034  material=G4_Al  --->  #secondaries=20
+	 Collision 272  projectile=pi-  Ekin(MeV)=9763.87  material=G4_H  --->  #secondaries=5
+	 Collision 273  projectile=xi-  Ekin(MeV)=26482.4  material=G4_Cu  --->  #secondaries=52
+	 Collision 274  projectile=neutron  Ekin(MeV)=29672.5  material=G4_Ar  --->  #secondaries=49
+	 Collision 275  projectile=kaon0S  Ekin(MeV)=13360.6  material=G4_Be  --->  #secondaries=8
+	 Collision 276  projectile=anti_sigma+  Ekin(MeV)=10049.9  material=G4_Cu  --->  #secondaries=30
+	 Collision 277  projectile=anti_sigma+  Ekin(MeV)=11840.4  material=G4_Al  --->  #secondaries=22
+	 Collision 278  projectile=anti_alpha  Ekin(MeV)=25614.5  material=G4_Al  --->  #secondaries=44
+	 Collision 279  projectile=anti_alpha  Ekin(MeV)=10890.7  material=G4_Be  --->  #secondaries=15
+	 Collision 280  projectile=anti_xi0  Ekin(MeV)=25997  material=G4_W  --->  #secondaries=88
+	 Collision 281  projectile=omega-  Ekin(MeV)=5133.98  material=G4_Cu  --->  #secondaries=29
+	 Collision 282  projectile=anti_sigma-  Ekin(MeV)=17669.2  material=G4_H  --->  #secondaries=5
+	 Collision 283  projectile=neutron  Ekin(MeV)=18766.9  material=G4_Ar  --->  #secondaries=14
+	 Collision 284  projectile=kaon-  Ekin(MeV)=3962.7  material=G4_Fe  --->  #secondaries=9
+	 Collision 285  projectile=anti_proton  Ekin(MeV)=20358.2  material=G4_Al  --->  #secondaries=19
+	 Collision 286  projectile=He3  Ekin(MeV)=25153  material=G4_H  --->  #secondaries=5
+	 Collision 287  projectile=triton  Ekin(MeV)=17762.7  material=G4_Fe  --->  #secondaries=22
+	 Collision 288  projectile=kaon+  Ekin(MeV)=5481.18  material=G4_H  --->  #secondaries=3
+	 Collision 289  projectile=pi-  Ekin(MeV)=5062.81  material=G4_He  --->  #secondaries=9
+	 Collision 290  projectile=xi0  Ekin(MeV)=25685.7  material=G4_W  --->  #secondaries=56
+	 Collision 291  projectile=lambda  Ekin(MeV)=4313.16  material=G4_Be  --->  #secondaries=9
+	 Collision 292  projectile=kaon0L  Ekin(MeV)=20057.9  material=G4_C  --->  #secondaries=14
+	 Collision 293  projectile=deuteron  Ekin(MeV)=11021.9  material=G4_Ar  --->  #secondaries=9
+	 Collision 294  projectile=anti_alpha  Ekin(MeV)=12462.7  material=G4_Be  --->  #secondaries=21
+	 Collision 295  projectile=lambda  Ekin(MeV)=21961.3  material=G4_Cu  --->  #secondaries=22
+	 Collision 296  projectile=pi+  Ekin(MeV)=11659.7  material=G4_C  --->  #secondaries=17
+	 Collision 297  projectile=pi+  Ekin(MeV)=17098.9  material=G4_W  --->  #secondaries=92
+	 Collision 298  projectile=lambda  Ekin(MeV)=22573.7  material=G4_Al  --->  #secondaries=7
+	 Collision 299  projectile=pi-  Ekin(MeV)=20468.7  material=G4_W  --->  #secondaries=65
+	 Collision 300  projectile=He3  Ekin(MeV)=20723.1  material=G4_Pb  --->  #secondaries=130
+	 	 List of produced secondaries: 
+	 	 	 j=0	neutron	 p=(251.48,1187.54,416.7281590.58) MeV
+	 	 	 j=1	pi0	 p=(149.571,179.797,-234.058357.352) MeV
+	 	 	 j=2	neutron	 p=(-56.7851,1377.31,1556.132281.34) MeV
+	 	 	 j=3	pi+	 p=(-156.284,-10.6473,-28.2402211.696) MeV
+	 	 	 j=4	neutron	 p=(160.487,2037.58,1556.582735.55) MeV
+	 	 	 j=5	eta	 p=(-391.743,927.484,434.9571225.98) MeV
+	 	 	 j=6	pi-	 p=(-2.56975,411.801,121.227451.401) MeV
+	 	 	 j=7	proton	 p=(719.145,817.612,986.8051743.5) MeV
+	 	 	 j=8	pi-	 p=(852.443,1295.82,993.9711847.5) MeV
+	 	 	 j=9	proton	 p=(1029.08,6.67226,-220.3221409.95) MeV
+	 	 	 j=10	proton	 p=(357.935,-49.5113,561.7621151.74) MeV
+	 	 	 j=11	pi+	 p=(-16.9239,209.996,323.512410.517) MeV
+	 	 	 j=12	pi0	 p=(439.593,444.556,402.61755.768) MeV
+	 	 	 j=13	neutron	 p=(478.68,500.822,485.1351264.16) MeV
+	 	 	 j=14	pi0	 p=(129.41,389.202,257.684502.837) MeV
+	 	 	 j=15	pi0	 p=(122.028,325.79,166.502408.621) MeV
+	 	 	 j=16	neutron	 p=(688.124,-60.5891,134.8291173.95) MeV
+	 	 	 j=17	pi0	 p=(383.981,591.35,654971.118) MeV
+	 	 	 j=18	proton	 p=(399.35,-188.822,529.1951164.27) MeV
+	 	 	 j=19	proton	 p=(-195.047,-194.522,445.8521074.72) MeV
+	 	 	 j=20	proton	 p=(541.843,286.438,-323.1651166.38) MeV
+	 	 	 j=21	proton	 p=(582.702,665.556,-72.00631291.53) MeV
+	 	 	 j=22	proton	 p=(-69.4681,325.316,383.8621066.94) MeV
+	 	 	 j=23	neutron	 p=(156.763,-146.919,299.0111009.13) MeV
+	 	 	 j=24	proton	 p=(47.1482,479.209,260.2231086.25) MeV
+	 	 	 j=25	proton	 p=(99.151,341.459,200.0411023.13) MeV
+	 	 	 j=26	proton	 p=(-46.0661,300.578,378.3091056.38) MeV
+	 	 	 j=27	neutron	 p=(72.7388,-99.1177,261.157982.904) MeV
+	 	 	 j=28	neutron	 p=(114.944,-307.949,48.0671996.563) MeV
+	 	 	 j=29	neutron	 p=(-13.5808,384.565,203.5691035.52) MeV
+	 	 	 j=30	neutron	 p=(-212.199,-6.2298,-276.3291002.1) MeV
+	 	 	 j=31	pi-	 p=(32.4612,42.8647,-132.435199.774) MeV
+	 	 	 j=32	neutron	 p=(406.468,375.827,490.9571195.94) MeV
+	 	 	 j=33	pi-	 p=(169.907,193.205,-79.7429303.373) MeV
+	 	 	 j=34	pi0	 p=(-93.21,67.0309,320.546366.264) MeV
+	 	 	 j=35	pi+	 p=(114.042,311.555,171.44398.677) MeV
+	 	 	 j=36	pi-	 p=(-14.7801,-7.72979,54.1205150.622) MeV
+	 	 	 j=37	pi+	 p=(-59.6655,-291.628,-39.3479331.112) MeV
+	 	 	 j=38	deuteron	 p=(197.039,-690.673,53.37112009.14) MeV
+	 	 	 j=39	deuteron	 p=(-167.428,263.112,260.6851919.15) MeV
+	 	 	 j=40	deuteron	 p=(-7.14358,-42.652,-235.8071890.87) MeV
+	 	 	 j=41	deuteron	 p=(257.469,-324.344,-517.2541989.21) MeV
+	 	 	 j=42	deuteron	 p=(-333.278,-376.831,-493.712003.68) MeV
+	 	 	 j=43	proton	 p=(37.6537,-332.437,-143.5111006.42) MeV
+	 	 	 j=44	neutron	 p=(-218.9,-97.2065,-126.085977.776) MeV
+	 	 	 j=45	neutron	 p=(288.913,224.937,-133.6561017.21) MeV
+	 	 	 j=46	proton	 p=(120.195,164.472,-76.577963.18) MeV
+	 	 	 j=47	neutron	 p=(21.5795,-259.787,-160.083988.112) MeV
+	 	 	 j=48	proton	 p=(516.205,-276.906,-7.179631106.14) MeV
+	 	 	 j=49	neutron	 p=(-487.41,263.45,113.3871096.64) MeV
+	 	 	 j=50	neutron	 p=(251.835,197.766,294.2311035.32) MeV
+	 	 	 j=51	neutron	 p=(80.9363,-240.817,407.8641055.31) MeV
+	 	 	 j=52	proton	 p=(-120.625,189.112,-246.898995.805) MeV
+	 	 	 j=53	neutron	 p=(149.039,115.578,-160.1971.589) MeV
+	 	 	 j=54	neutron	 p=(-31.0687,-77.4875,217.347967.984) MeV
+	 	 	 j=55	proton	 p=(-202.284,-199.046,237.341008.57) MeV
+	 	 	 j=56	proton	 p=(-143.528,264.452,169.859999.871) MeV
+	 	 	 j=57	proton	 p=(144.609,80.3102,256.158986.576) MeV
+	 	 	 j=58	proton	 p=(11.6742,-216.342,-229.043989.826) MeV
+	 	 	 j=59	neutron	 p=(-53.3352,-73.2202,-96.0749948.799) MeV
+	 	 	 j=60	neutron	 p=(-265.276,38.1438,79.1366980.241) MeV
+	 	 	 j=61	proton	 p=(94.0308,209.206,-262.4591000.92) MeV
+	 	 	 j=62	neutron	 p=(-4.21536,33.3653,-139.705950.49) MeV
+	 	 	 j=63	proton	 p=(-173.475,112.567,-232.241988.461) MeV
+	 	 	 j=64	neutron	 p=(7.51193,-319.87,-53.5531993.994) MeV
+	 	 	 j=65	neutron	 p=(-151.769,-24.9331,294.084996.456) MeV
+	 	 	 j=66	neutron	 p=(276.857,-65.9648,164.548995.42) MeV
+	 	 	 j=67	proton	 p=(54.7,-307.771,22.6766989.234) MeV
+	 	 	 j=68	proton	 p=(-44.3686,309.705,-140.133998.938) MeV
+	 	 	 j=69	neutron	 p=(-229.696,72.3622,155.137982.266) MeV
+	 	 	 j=70	neutron	 p=(145.765,272.033,42.563989.871) MeV
+	 	 	 j=71	neutron	 p=(-45.3783,-194.845,-71.0882963.255) MeV
+	 	 	 j=72	neutron	 p=(-130.405,-222.682,116.801981.335) MeV
+	 	 	 j=73	proton	 p=(153.263,93.9895,-153.159967.541) MeV
+	 	 	 j=74	proton	 p=(227.68,120.173,-9.90006973.002) MeV
+	 	 	 j=75	neutron	 p=(18.3307,171.724,323.1591008.48) MeV
+	 	 	 j=76	neutron	 p=(148.947,-6.86559,335.5521008.77) MeV
+	 	 	 j=77	Zn70	 p=(410.901,3048.75,748.35365196.7) MeV
+	 	 	 j=78	proton	 p=(-1.85577,-84.0412,-251.35974.986) MeV
+	 	 	 j=79	proton	 p=(-138.187,-29.2278,76.8036951.947) MeV
+	 	 	 j=80	neutron	 p=(32.3548,61.7358,-1.63129942.149) MeV
+	 	 	 j=81	neutron	 p=(-53.1132,86.9081,113.388951.848) MeV
+	 	 	 j=82	neutron	 p=(66.0123,110.839,-89.3451952.58) MeV
+	 	 	 j=83	proton	 p=(-240.614,41.5875,-33.0009970.087) MeV
+	 	 	 j=84	deuteron	 p=(-204.544,19.1029,183.1951895.7) MeV
+	 	 	 j=85	proton	 p=(-64.0737,-128.834,-107.257955.281) MeV
+	 	 	 j=86	neutron	 p=(52.7644,124.283,39.2215950.027) MeV
+	 	 	 j=87	deuteron	 p=(-235.803,60.6238,274.5641911.17) MeV
+	 	 	 j=88	triton	 p=(-55.2446,323.872,-179.2592833.75) MeV
+	 	 	 j=89	neutron	 p=(-62.3353,119.821,153.51961.557) MeV
+	 	 	 j=90	neutron	 p=(33.2532,67.8199,141.02953.087) MeV
+	 	 	 j=91	neutron	 p=(-14.7891,-260.834,-39.4191976.007) MeV
+	 	 	 j=92	proton	 p=(-163.844,-31.9127,24.2131953.312) MeV
+	 	 	 j=93	neutron	 p=(9.12376,-117.154,30.1433947.365) MeV
+	 	 	 j=94	proton	 p=(13.5144,-101.661,-23.9705944.164) MeV
+	 	 	 j=95	proton	 p=(160.413,145.956,-128.089971.492) MeV
+	 	 	 j=96	neutron	 p=(-88.1861,85.8184,41.9679948.518) MeV
+	 	 	 j=97	deuteron	 p=(-65.8876,-12.9285,149.1451882.73) MeV
+	 	 	 j=98	neutron	 p=(80.6007,114.257,203.871971.544) MeV
+	 	 	 j=99	neutron	 p=(-35.4158,-163.666,29.5977954.83) MeV
+	 	 	 j=100	neutron	 p=(-104.497,73.2768,-55.9764949.845) MeV
+	 	 	 j=101	neutron	 p=(50.7809,64.7163,15.995943.295) MeV
+	 	 	 j=102	neutron	 p=(-56.7909,-63.2928,-33.0426943.984) MeV
+	 	 	 j=103	alpha	 p=(-129.288,464.866,-162.1053761.97) MeV
+	 	 	 j=104	neutron	 p=(-5.56358,34.1947,106.472946.213) MeV
+	 	 	 j=105	neutron	 p=(2.39689,64.9023,-28.3195942.233) MeV
+	 	 	 j=106	neutron	 p=(-74.6806,161.883,-35.4708956.987) MeV
+	 	 	 j=107	neutron	 p=(113.977,40.3464,74.1156950.208) MeV
+	 	 	 j=108	proton	 p=(12.0544,155.576,54.5666952.723) MeV
+	 	 	 j=109	neutron	 p=(-37.011,103.724,-50.272947.333) MeV
+	 	 	 j=110	neutron	 p=(37.8607,118.023,33.7746948.307) MeV
+	 	 	 j=111	neutron	 p=(107.429,116.428,70.6313955.441) MeV
+	 	 	 j=112	neutron	 p=(19.3466,45.7041,-16.9949941.029) MeV
+	 	 	 j=113	gamma	 p=(0.575596,-0.173707,-0.08475310.607181) MeV
+	 	 	 j=114	gamma	 p=(-0.181686,-0.234711,-1.630261.65706) MeV
+	 	 	 j=115	gamma	 p=(-0.253399,0.743252,0.5156720.939443) MeV
+	 	 	 j=116	gamma	 p=(-0.42261,-0.642371,-0.3553940.84708) MeV
+	 	 	 j=117	neutron	 p=(-24.6136,5.33053,17.2768940.062) MeV
+	 	 	 j=118	deuteron	 p=(14.3536,10.4894,95.14891878.11) MeV
+	 	 	 j=119	neutron	 p=(119.069,-53.8816,33.6389949.208) MeV
+	 	 	 j=120	deuteron	 p=(166.474,-131.348,235.7731902.23) MeV
+	 	 	 j=121	neutron	 p=(103.644,43.1423,10.2043946.304) MeV
+	 	 	 j=122	neutron	 p=(-42.3545,149.297,9.29293952.341) MeV
+	 	 	 j=123	neutron	 p=(56.8066,87.0109,33.7265945.896) MeV
+	 	 	 j=124	neutron	 p=(-60.9992,17.921,44.4495942.762) MeV
+	 	 	 j=125	neutron	 p=(114.604,-99.9622,-35.5855952.458) MeV
+	 	 	 j=126	neutron	 p=(127.325,-21.2516,28.0742948.807) MeV
+	 	 	 j=127	neutron	 p=(63.1734,15.2512,26.3497942.179) MeV
+	 	 	 j=128	gamma	 p=(1.37981,2.01876,1.416862.82609) MeV
+	 	 	 j=129	F19[197.143]	 p=(1042.79,-153.482,443.46817729.4) MeV
+	 Collision 301  projectile=kaon-  Ekin(MeV)=1953.9  material=G4_Fe  --->  #secondaries=16
+	 Collision 302  projectile=anti_xi0  Ekin(MeV)=18335.3  material=G4_H  --->  #secondaries=7
+	 Collision 303  projectile=He3  Ekin(MeV)=15956.3  material=G4_Al  --->  #secondaries=25
+	 Collision 304  projectile=anti_sigma-  Ekin(MeV)=22991.1  material=G4_He  --->  #secondaries=14
+	 Collision 305  projectile=anti_triton  Ekin(MeV)=9438.41  material=G4_Cu  --->  #secondaries=16
+	 Collision 306  projectile=sigma-  Ekin(MeV)=2876.73  material=G4_He  --->  #secondaries=5
+	 Collision 307  projectile=kaon0S  Ekin(MeV)=17653.2  material=G4_Si  --->  #secondaries=32
+	 Collision 308  projectile=omega-  Ekin(MeV)=15139.5  material=G4_C  --->  #secondaries=10
+	 Collision 309  projectile=anti_xi-  Ekin(MeV)=7101.3  material=G4_Si  --->  #secondaries=21
+	 Collision 310  projectile=kaon-  Ekin(MeV)=6404.67  material=G4_Pb  --->  #secondaries=71
+	 Collision 311  projectile=anti_omega-  Ekin(MeV)=5069.07  material=G4_Fe  --->  #secondaries=28
+	 Collision 312  projectile=alpha  Ekin(MeV)=9594.08  material=G4_C  --->  #secondaries=13
+	 Collision 313  projectile=anti_proton  Ekin(MeV)=10681.7  material=G4_C  --->  #secondaries=12
+	 Collision 314  projectile=anti_neutron  Ekin(MeV)=23236.1  material=G4_He  --->  #secondaries=4
+	 Collision 315  projectile=anti_neutron  Ekin(MeV)=6812.49  material=G4_Be  --->  #secondaries=5
+	 Collision 316  projectile=anti_He3  Ekin(MeV)=12640.7  material=G4_Ar  --->  #secondaries=23
+	 Collision 317  projectile=sigma+  Ekin(MeV)=5725.57  material=G4_Pb  --->  #secondaries=27
+	 Collision 318  projectile=deuteron  Ekin(MeV)=23993.4  material=G4_Al  --->  #secondaries=37
+	 Collision 319  projectile=alpha  Ekin(MeV)=29265.3  material=G4_He  --->  #secondaries=6
+	 Collision 320  projectile=neutron  Ekin(MeV)=17419.7  material=G4_W  --->  #secondaries=88
+	 Collision 321  projectile=kaon-  Ekin(MeV)=7285.72  material=G4_He  --->  #secondaries=9
+	 Collision 322  projectile=anti_sigma+  Ekin(MeV)=29513.3  material=G4_W  --->  #secondaries=41
+	 Collision 323  projectile=pi+  Ekin(MeV)=22253.6  material=G4_C  --->  #secondaries=16
+	 Collision 324  projectile=anti_sigma-  Ekin(MeV)=4690.01  material=G4_H  --->  #secondaries=3
+	 Collision 325  projectile=triton  Ekin(MeV)=28456.5  material=G4_Fe  --->  #secondaries=53
+	 Collision 326  projectile=anti_xi0  Ekin(MeV)=5211.67  material=G4_W  --->  #secondaries=50
+	 Collision 327  projectile=omega-  Ekin(MeV)=12521.1  material=G4_H  --->  #secondaries=3
+	 Collision 328  projectile=deuteron  Ekin(MeV)=28879.5  material=G4_Pb  --->  #secondaries=89
+	 Collision 329  projectile=anti_proton  Ekin(MeV)=8541.09  material=G4_Ar  --->  #secondaries=10
+	 Collision 330  projectile=anti_proton  Ekin(MeV)=5609.79  material=G4_H  --->  #secondaries=5
+	 Collision 331  projectile=xi0  Ekin(MeV)=21971.9  material=G4_He  --->  #secondaries=7
+	 Collision 332  projectile=anti_sigma-  Ekin(MeV)=19180.3  material=G4_Si  --->  #secondaries=17
+	 Collision 333  projectile=proton  Ekin(MeV)=5972.5  material=G4_Ar  --->  #secondaries=19
+	 Collision 334  projectile=He3  Ekin(MeV)=15295.9  material=G4_Al  --->  #secondaries=21
+	 Collision 335  projectile=anti_sigma+  Ekin(MeV)=24145.9  material=G4_C  --->  #secondaries=22
+	 Collision 336  projectile=proton  Ekin(MeV)=6506.2  material=G4_Cu  --->  #secondaries=56
+	 Collision 337  projectile=lambda  Ekin(MeV)=14197.6  material=G4_Si  --->  #secondaries=10
+	 Collision 338  projectile=xi0  Ekin(MeV)=20230.5  material=G4_Si  --->  #secondaries=14
+	 Collision 339  projectile=triton  Ekin(MeV)=14419.7  material=G4_Cu  --->  #secondaries=58
+	 Collision 340  projectile=xi0  Ekin(MeV)=25256.7  material=G4_Si  --->  #secondaries=36
+	 Collision 341  projectile=anti_sigma+  Ekin(MeV)=26431.8  material=G4_Pb  --->  #secondaries=82
+	 Collision 342  projectile=anti_sigma+  Ekin(MeV)=2008.22  material=G4_Fe  --->  #secondaries=13
+	 Collision 343  projectile=anti_He3  Ekin(MeV)=13025.8  material=G4_W  --->  #secondaries=151
+	 Collision 344  projectile=anti_sigma+  Ekin(MeV)=16740.5  material=G4_Cu  --->  #secondaries=43
+	 Collision 345  projectile=proton  Ekin(MeV)=25993.9  material=G4_Al  --->  #secondaries=16
+	 Collision 346  projectile=anti_triton  Ekin(MeV)=13724.9  material=G4_Ar  --->  #secondaries=13
+	 Collision 347  projectile=anti_He3  Ekin(MeV)=16166.8  material=G4_Ar  --->  #secondaries=17
+	 Collision 348  projectile=alpha  Ekin(MeV)=11059.4  material=G4_He  --->  #secondaries=11
+	 Collision 349  projectile=anti_He3  Ekin(MeV)=2191.89  material=G4_W  --->  #secondaries=68
+	 Collision 350  projectile=anti_triton  Ekin(MeV)=8423.4  material=G4_Pb  --->  #secondaries=79
+	 Collision 351  projectile=anti_triton  Ekin(MeV)=23098.3  material=G4_Ar  --->  #secondaries=43
+	 Collision 352  projectile=anti_triton  Ekin(MeV)=25339.2  material=G4_H  --->  #secondaries=9
+	 Collision 353  projectile=anti_xi-  Ekin(MeV)=19285.8  material=G4_He  --->  #secondaries=10
+	 Collision 354  projectile=pi-  Ekin(MeV)=15877.9  material=G4_Fe  --->  #secondaries=37
+	 Collision 355  projectile=deuteron  Ekin(MeV)=25933.9  material=G4_Be  --->  #secondaries=25
+	 Collision 356  projectile=anti_omega-  Ekin(MeV)=14413.2  material=G4_Pb  --->  #secondaries=37
+	 Collision 357  projectile=lambda  Ekin(MeV)=9882.68  material=G4_Fe  --->  #secondaries=33
+	 Collision 358  projectile=anti_neutron  Ekin(MeV)=14066.2  material=G4_Cu  --->  #secondaries=12
+	 Collision 359  projectile=kaon0L  Ekin(MeV)=21136.8  material=G4_Be  --->  #secondaries=14
+	 Collision 360  projectile=anti_triton  Ekin(MeV)=25989.2  material=G4_Si  --->  #secondaries=16
+	 Collision 361  projectile=He3  Ekin(MeV)=26324.3  material=G4_Pb  --->  #secondaries=116
+	 Collision 362  projectile=sigma+  Ekin(MeV)=21608.7  material=G4_Ar  --->  #secondaries=33
+	 Collision 363  projectile=anti_xi-  Ekin(MeV)=10414.6  material=G4_H  --->  #secondaries=4
+	 Collision 364  projectile=kaon-  Ekin(MeV)=12638.3  material=G4_C  --->  #secondaries=12
+	 Collision 365  projectile=anti_He3  Ekin(MeV)=5997.16  material=G4_Cu  --->  #secondaries=31
+	 Collision 366  projectile=anti_omega-  Ekin(MeV)=17914.3  material=G4_Be  --->  #secondaries=13
+	 Collision 367  projectile=anti_xi-  Ekin(MeV)=5285.94  material=G4_W  --->  #secondaries=49
+	 Collision 368  projectile=proton  Ekin(MeV)=2575.77  material=G4_Fe  --->  #secondaries=35
+	 Collision 369  projectile=kaon-  Ekin(MeV)=16708.8  material=G4_Al  --->  #secondaries=14
+	 Collision 370  projectile=pi+  Ekin(MeV)=12721.7  material=G4_H  --->  #secondaries=10
+	 Collision 371  projectile=deuteron  Ekin(MeV)=9104.21  material=G4_He  --->  #secondaries=6
+	 Collision 372  projectile=pi-  Ekin(MeV)=18040.2  material=G4_Cu  --->  #secondaries=15
+	 Collision 373  projectile=lambda  Ekin(MeV)=13682.4  material=G4_C  --->  #secondaries=11
+	 Collision 374  projectile=pi+  Ekin(MeV)=29633.3  material=G4_Fe  --->  #secondaries=19
+	 Collision 375  projectile=kaon+  Ekin(MeV)=26106.8  material=G4_W  --->  #secondaries=72
+	 Collision 376  projectile=lambda  Ekin(MeV)=27573.1  material=G4_Pb  --->  #secondaries=83
+	 Collision 377  projectile=pi+  Ekin(MeV)=24179.4  material=G4_C  --->  #secondaries=15
+	 Collision 378  projectile=pi+  Ekin(MeV)=3505.69  material=G4_H  --->  #secondaries=6
+	 Collision 379  projectile=omega-  Ekin(MeV)=10543.9  material=G4_Al  --->  #secondaries=15
+	 Collision 380  projectile=neutron  Ekin(MeV)=15154  material=G4_C  --->  #secondaries=18
+	 Collision 381  projectile=lambda  Ekin(MeV)=15280.8  material=G4_Al  --->  #secondaries=23
+	 Collision 382  projectile=anti_proton  Ekin(MeV)=9326.16  material=G4_Fe  --->  #secondaries=18
+	 Collision 383  projectile=deuteron  Ekin(MeV)=13502.7  material=G4_Be  --->  #secondaries=7
+	 Collision 384  projectile=xi-  Ekin(MeV)=22713.7  material=G4_Ar  --->  #secondaries=17
+	 Collision 385  projectile=anti_sigma+  Ekin(MeV)=2858.41  material=G4_He  --->  #secondaries=9
+	 Collision 386  projectile=anti_He3  Ekin(MeV)=1962.16  material=G4_C  --->  #secondaries=15
+	 Collision 387  projectile=anti_deuteron  Ekin(MeV)=27111.6  material=G4_Al  --->  #secondaries=15
+	 Collision 388  projectile=proton  Ekin(MeV)=25401.6  material=G4_W  --->  #secondaries=50
+	 Collision 389  projectile=anti_triton  Ekin(MeV)=23153.9  material=G4_C  --->  #secondaries=22
+	 Collision 390  projectile=kaon-  Ekin(MeV)=18751.7  material=G4_Ar  --->  #secondaries=19
+	 Collision 391  projectile=deuteron  Ekin(MeV)=25041.9  material=G4_Si  --->  #secondaries=20
+	 Collision 392  projectile=kaon0S  Ekin(MeV)=29932.6  material=G4_Ar  --->  #secondaries=25
+	 Collision 393  projectile=deuteron  Ekin(MeV)=26344.9  material=G4_H  --->  #secondaries=7
+	 Collision 394  projectile=xi-  Ekin(MeV)=22286.2  material=G4_Fe  --->  #secondaries=31
+	 Collision 395  projectile=deuteron  Ekin(MeV)=1175.93  material=G4_Si  --->  #secondaries=9
+	 Collision 396  projectile=anti_lambda  Ekin(MeV)=19774  material=G4_C  --->  #secondaries=19
+	 Collision 397  projectile=pi-  Ekin(MeV)=8765.35  material=G4_Ar  --->  #secondaries=25
+	 Collision 398  projectile=kaon0S  Ekin(MeV)=9780.38  material=G4_Cu  --->  #secondaries=38
+	 Collision 399  projectile=anti_sigma-  Ekin(MeV)=25940.3  material=G4_C  --->  #secondaries=15
+	 Collision 400  projectile=proton  Ekin(MeV)=19107.7  material=G4_H  --->  #secondaries=9
+	 	 List of produced secondaries: 
+	 	 	 j=0	lambda	 p=(2107.98,-36.9372,2780.863663.72) MeV
+	 	 	 j=1	kaon+	 p=(637.562,3.67352,685.8481058.59) MeV
+	 	 	 j=2	pi+	 p=(1496.61,834.275,1944.672595.59) MeV
+	 	 	 j=3	pi-	 p=(381.782,72.2662,656.737775.734) MeV
+	 	 	 j=4	pi0	 p=(2593.37,569.79,3025.854027.92) MeV
+	 	 	 j=5	pi0	 p=(70.1238,-5.19399,262.724303.623) MeV
+	 	 	 j=6	neutron	 p=(1168.18,-541.748,1929.432502.72) MeV
+	 	 	 j=7	pi0	 p=(493.022,477.979,1707.351845.21) MeV
+	 	 	 j=8	pi+	 p=(2642.98,10.2649,3275.654211.27) MeV
+	 Collision 401  projectile=deuteron  Ekin(MeV)=16557.8  material=G4_W  --->  #secondaries=54
+	 Collision 402  projectile=neutron  Ekin(MeV)=2020.52  material=G4_Al  --->  #secondaries=10
+	 Collision 403  projectile=anti_neutron  Ekin(MeV)=2000.77  material=G4_Al  --->  #secondaries=13
+	 Collision 404  projectile=omega-  Ekin(MeV)=7062.78  material=G4_Al  --->  #secondaries=30
+	 Collision 405  projectile=alpha  Ekin(MeV)=13826.9  material=G4_Pb  --->  #secondaries=13
+	 Collision 406  projectile=anti_triton  Ekin(MeV)=14124.6  material=G4_Be  --->  #secondaries=18
+	 Collision 407  projectile=neutron  Ekin(MeV)=6074.16  material=G4_Si  --->  #secondaries=28
+	 Collision 408  projectile=pi-  Ekin(MeV)=23599.4  material=G4_C  --->  #secondaries=9
+	 Collision 409  projectile=anti_omega-  Ekin(MeV)=1558.4  material=G4_Al  --->  #secondaries=11
+	 Collision 410  projectile=anti_triton  Ekin(MeV)=4469.9  material=G4_W  --->  #secondaries=65
+	 Collision 411  projectile=xi-  Ekin(MeV)=8276.3  material=G4_Ar  --->  #secondaries=9
+	 Collision 412  projectile=alpha  Ekin(MeV)=11586.6  material=G4_Si  --->  #secondaries=7
+	 Collision 413  projectile=pi-  Ekin(MeV)=28291.7  material=G4_He  --->  #secondaries=15
+	 Collision 414  projectile=anti_triton  Ekin(MeV)=22883.5  material=G4_Cu  --->  #secondaries=54
+	 Collision 415  projectile=pi+  Ekin(MeV)=2729.73  material=G4_Cu  --->  #secondaries=14
+	 Collision 416  projectile=kaon-  Ekin(MeV)=14245.5  material=G4_Si  --->  #secondaries=22
+	 Collision 417  projectile=sigma+  Ekin(MeV)=26711.8  material=G4_Cu  --->  #secondaries=41
+	 Collision 418  projectile=sigma-  Ekin(MeV)=23533  material=G4_Pb  --->  #secondaries=44
+	 Collision 419  projectile=anti_alpha  Ekin(MeV)=4714.68  material=G4_Si  --->  #secondaries=28
+	 Collision 420  projectile=He3  Ekin(MeV)=13534.1  material=G4_W  --->  #secondaries=40
+	 Collision 421  projectile=anti_omega-  Ekin(MeV)=1102.94  material=G4_H  --->  #secondaries=4
+	 Collision 422  projectile=proton  Ekin(MeV)=13744.6  material=G4_W  --->  #secondaries=34
+	 Collision 423  projectile=anti_omega-  Ekin(MeV)=10333.4  material=G4_Ar  --->  #secondaries=22
+	 Collision 424  projectile=omega-  Ekin(MeV)=23353.8  material=G4_Fe  --->  #secondaries=20
+	 Collision 425  projectile=pi+  Ekin(MeV)=10847.8  material=G4_W  --->  #secondaries=51
+	 Collision 426  projectile=alpha  Ekin(MeV)=1033.56  material=G4_Ar  --->  #secondaries=6
+	 Collision 427  projectile=pi+  Ekin(MeV)=14326.3  material=G4_Cu  --->  #secondaries=39
+	 Collision 428  projectile=proton  Ekin(MeV)=10026.1  material=G4_Fe  --->  #secondaries=47
+	 Collision 429  projectile=sigma-  Ekin(MeV)=8199.14  material=G4_Fe  --->  #secondaries=21
+	 Collision 430  projectile=anti_omega-  Ekin(MeV)=14194  material=G4_Si  --->  #secondaries=26
+	 Collision 431  projectile=lambda  Ekin(MeV)=16579.2  material=G4_Fe  --->  #secondaries=30
+	 Collision 432  projectile=kaon0L  Ekin(MeV)=8539.81  material=G4_Fe  --->  #secondaries=41
+	 Collision 433  projectile=anti_He3  Ekin(MeV)=19206.6  material=G4_Si  --->  #secondaries=40
+	 Collision 434  projectile=anti_lambda  Ekin(MeV)=6549.68  material=G4_He  --->  #secondaries=5
+	 Collision 435  projectile=kaon+  Ekin(MeV)=21103.9  material=G4_W  --->  #secondaries=38
+	 Collision 436  projectile=sigma-  Ekin(MeV)=29285.9  material=G4_W  --->  #secondaries=25
+	 Collision 437  projectile=sigma-  Ekin(MeV)=24857.1  material=G4_Be  --->  #secondaries=12
+	 Collision 438  projectile=anti_proton  Ekin(MeV)=6735.43  material=G4_Pb  --->  #secondaries=72
+	 Collision 439  projectile=triton  Ekin(MeV)=18964.7  material=G4_Cu  --->  #secondaries=27
+	 Collision 440  projectile=kaon+  Ekin(MeV)=14522.8  material=G4_Si  --->  #secondaries=15
+	 Collision 441  projectile=pi+  Ekin(MeV)=18914.5  material=G4_Si  --->  #secondaries=12
+	 Collision 442  projectile=sigma-  Ekin(MeV)=13795.9  material=G4_C  --->  #secondaries=17
+	 Collision 443  projectile=kaon0S  Ekin(MeV)=25506.8  material=G4_He  --->  #secondaries=11
+	 Collision 444  projectile=pi-  Ekin(MeV)=9528.49  material=G4_W  --->  #secondaries=103
+	 Collision 445  projectile=kaon0L  Ekin(MeV)=25381.1  material=G4_C  --->  #secondaries=10
+	 Collision 446  projectile=neutron  Ekin(MeV)=3540.11  material=G4_Be  --->  #secondaries=8
+	 Collision 447  projectile=sigma+  Ekin(MeV)=25109.4  material=G4_Cu  --->  #secondaries=32
+	 Collision 448  projectile=anti_He3  Ekin(MeV)=13773.2  material=G4_Al  --->  #secondaries=14
+	 Collision 449  projectile=proton  Ekin(MeV)=11041.6  material=G4_W  --->  #secondaries=54
+	 Collision 450  projectile=anti_sigma+  Ekin(MeV)=20423.8  material=G4_Cu  --->  #secondaries=50
+	 Collision 451  projectile=anti_sigma+  Ekin(MeV)=12215.3  material=G4_Si  --->  #secondaries=7
+	 Collision 452  projectile=kaon+  Ekin(MeV)=20246.3  material=G4_Ar  --->  #secondaries=13
+	 Collision 453  projectile=kaon0L  Ekin(MeV)=6882.65  material=G4_He  --->  #secondaries=8
+	 Collision 454  projectile=anti_triton  Ekin(MeV)=18436.8  material=G4_Ar  --->  #secondaries=35
+	 Collision 455  projectile=pi-  Ekin(MeV)=20942  material=G4_Ar  --->  #secondaries=8
+	 Collision 456  projectile=anti_sigma+  Ekin(MeV)=23462.1  material=G4_H  --->  #secondaries=10
+	 Collision 457  projectile=neutron  Ekin(MeV)=8139.5  material=G4_Ar  --->  #secondaries=12
+	 Collision 458  projectile=anti_He3  Ekin(MeV)=1252.54  material=G4_Si  --->  #secondaries=12
+	 Collision 459  projectile=anti_neutron  Ekin(MeV)=13921.2  material=G4_C  --->  #secondaries=18
+	 Collision 460  projectile=anti_He3  Ekin(MeV)=2855.76  material=G4_Be  --->  #secondaries=11
+	 Collision 461  projectile=anti_omega-  Ekin(MeV)=4483.9  material=G4_Ar  --->  #secondaries=23
+	 Collision 462  projectile=lambda  Ekin(MeV)=14616.1  material=G4_Si  --->  #secondaries=15
+	 Collision 463  projectile=xi0  Ekin(MeV)=3815.62  material=G4_W  --->  #secondaries=79
+	 Collision 464  projectile=anti_neutron  Ekin(MeV)=21778  material=G4_Al  --->  #secondaries=15
+	 Collision 465  projectile=deuteron  Ekin(MeV)=16927.2  material=G4_Al  --->  #secondaries=24
+	 Collision 466  projectile=xi-  Ekin(MeV)=29704.7  material=G4_Ar  --->  #secondaries=52
+	 Collision 467  projectile=omega-  Ekin(MeV)=3730.41  material=G4_H  --->  #secondaries=4
+	 Collision 468  projectile=anti_He3  Ekin(MeV)=16910.8  material=G4_Al  --->  #secondaries=21
+	 Collision 469  projectile=anti_neutron  Ekin(MeV)=12826.6  material=G4_Al  --->  #secondaries=25
+	 Collision 470  projectile=anti_proton  Ekin(MeV)=27688.4  material=G4_Ar  --->  #secondaries=31
+	 Collision 471  projectile=triton  Ekin(MeV)=10807.4  material=G4_He  --->  #secondaries=8
+	 Collision 472  projectile=anti_sigma-  Ekin(MeV)=11308.5  material=G4_He  --->  #secondaries=7
+	 Collision 473  projectile=xi0  Ekin(MeV)=6263.47  material=G4_Cu  --->  #secondaries=35
+	 Collision 474  projectile=anti_neutron  Ekin(MeV)=15891.6  material=G4_W  --->  #secondaries=67
+	 Collision 475  projectile=He3  Ekin(MeV)=20461  material=G4_Pb  --->  #secondaries=47
+	 Collision 476  projectile=deuteron  Ekin(MeV)=25001.7  material=G4_H  --->  #secondaries=3
+	 Collision 477  projectile=anti_lambda  Ekin(MeV)=7890.26  material=G4_Si  --->  #secondaries=28
+	 Collision 478  projectile=anti_deuteron  Ekin(MeV)=11514.2  material=G4_He  --->  #secondaries=9
+	 Collision 479  projectile=anti_omega-  Ekin(MeV)=16593.2  material=G4_Fe  --->  #secondaries=37
+	 Collision 480  projectile=triton  Ekin(MeV)=11240  material=G4_W  --->  #secondaries=37
+	 Collision 481  projectile=kaon+  Ekin(MeV)=17096.7  material=G4_Ar  --->  #secondaries=21
+	 Collision 482  projectile=omega-  Ekin(MeV)=2831.09  material=G4_Si  --->  #secondaries=6
+	 Collision 483  projectile=anti_xi-  Ekin(MeV)=8017.37  material=G4_Si  --->  #secondaries=15
+	 Collision 484  projectile=sigma-  Ekin(MeV)=28264.2  material=G4_C  --->  #secondaries=12
+	 Collision 485  projectile=anti_omega-  Ekin(MeV)=3843.99  material=G4_H  --->  #secondaries=3
+	 Collision 486  projectile=anti_sigma+  Ekin(MeV)=21207.1  material=G4_Al  --->  #secondaries=35
+	 Collision 487  projectile=anti_He3  Ekin(MeV)=17381.6  material=G4_C  --->  #secondaries=24
+	 Collision 488  projectile=kaon+  Ekin(MeV)=4143.14  material=G4_H  --->  #secondaries=5
+	 Collision 489  projectile=alpha  Ekin(MeV)=7220.1  material=G4_He  --->  #secondaries=6
+	 Collision 490  projectile=anti_xi-  Ekin(MeV)=1605.29  material=G4_W  --->  #secondaries=21
+	 Collision 491  projectile=anti_He3  Ekin(MeV)=3554.68  material=G4_H  --->  #secondaries=7
+	 Collision 492  projectile=proton  Ekin(MeV)=3094.14  material=G4_Pb  --->  #secondaries=46
+	 Collision 493  projectile=anti_neutron  Ekin(MeV)=16100.4  material=G4_Si  --->  #secondaries=14
+	 Collision 494  projectile=anti_xi-  Ekin(MeV)=8840.5  material=G4_Cu  --->  #secondaries=33
+	 Collision 495  projectile=anti_sigma+  Ekin(MeV)=16607.9  material=G4_Pb  --->  #secondaries=42
+	 Collision 496  projectile=sigma+  Ekin(MeV)=23537.9  material=G4_Ar  --->  #secondaries=9
+	 Collision 497  projectile=pi+  Ekin(MeV)=8172.42  material=G4_Si  --->  #secondaries=16
+	 Collision 498  projectile=proton  Ekin(MeV)=16349.6  material=G4_C  --->  #secondaries=16
+	 Collision 499  projectile=xi0  Ekin(MeV)=27017.1  material=G4_Al  --->  #secondaries=24
+	 Collision 500  projectile=anti_triton  Ekin(MeV)=15346.4  material=G4_Be  --->  #secondaries=11
+	 	 List of produced secondaries: 
+	 	 	 j=0	pi-	 p=(2621.89,1829.65,765.9923290.62) MeV
+	 	 	 j=1	pi+	 p=(3111.61,2279.08,629.9873910.59) MeV
+	 	 	 j=2	pi-	 p=(-8.15172,-8.29831,-9.80517140.397) MeV
+	 	 	 j=3	neutron	 p=(-161.225,-169.568,-123.739976.136) MeV
+	 	 	 j=4	pi-	 p=(-46.4402,409.932,255.957505.168) MeV
+	 	 	 j=5	pi+	 p=(248.94,348.642,-333.05560.289) MeV
+	 	 	 j=6	alpha	 p=(835.832,69.8932,18.97343820.63) MeV
+	 	 	 j=7	proton	 p=(-136.637,223.811,-27.9943974.628) MeV
+	 	 	 j=8	deuteron	 p=(-620.455,-75.0251,-27.46281977.19) MeV
+	 	 	 j=9	anti_neutron	 p=(3857.06,3274.13,941.0765231.19) MeV
+	 	 	 j=10	anti_neutron	 p=(3786.32,3300.5,725.2195161.23) MeV
+	 Collision 501  projectile=xi0  Ekin(MeV)=23053.5  material=G4_He  --->  #secondaries=14
+	 Collision 502  projectile=anti_neutron  Ekin(MeV)=28005  material=G4_Cu  --->  #secondaries=31
+	 Collision 503  projectile=neutron  Ekin(MeV)=27802.9  material=G4_C  --->  #secondaries=15
+	 Collision 504  projectile=neutron  Ekin(MeV)=26836.2  material=G4_Pb  --->  #secondaries=90
+	 Collision 505  projectile=anti_sigma+  Ekin(MeV)=11526  material=G4_C  --->  #secondaries=18
+	 Collision 506  projectile=anti_neutron  Ekin(MeV)=25281.6  material=G4_Pb  --->  #secondaries=19
+	 Collision 507  projectile=xi0  Ekin(MeV)=8151.49  material=G4_Al  --->  #secondaries=24
+	 Collision 508  projectile=neutron  Ekin(MeV)=19262.5  material=G4_Cu  --->  #secondaries=58
+	 Collision 509  projectile=anti_He3  Ekin(MeV)=13305.3  material=G4_Ar  --->  #secondaries=40
+	 Collision 510  projectile=neutron  Ekin(MeV)=8564.33  material=G4_H  --->  #secondaries=3
+	 Collision 511  projectile=neutron  Ekin(MeV)=6487.58  material=G4_He  --->  #secondaries=10
+	 Collision 512  projectile=lambda  Ekin(MeV)=20711.3  material=G4_Cu  --->  #secondaries=43
+	 Collision 513  projectile=anti_omega-  Ekin(MeV)=15146.9  material=G4_H  --->  #secondaries=4
+	 Collision 514  projectile=kaon-  Ekin(MeV)=9631.47  material=G4_Fe  --->  #secondaries=43
+	 Collision 515  projectile=pi-  Ekin(MeV)=26500  material=G4_H  --->  #secondaries=6
+	 Collision 516  projectile=anti_deuteron  Ekin(MeV)=10137.2  material=G4_C  --->  #secondaries=10
+	 Collision 517  projectile=anti_xi-  Ekin(MeV)=13733.6  material=G4_Cu  --->  #secondaries=54
+	 Collision 518  projectile=omega-  Ekin(MeV)=4216.17  material=G4_Pb  --->  #secondaries=40
+	 Collision 519  projectile=deuteron  Ekin(MeV)=12629.1  material=G4_C  --->  #secondaries=24
+	 Collision 520  projectile=pi+  Ekin(MeV)=2746.43  material=G4_H  --->  #secondaries=5
+	 Collision 521  projectile=anti_triton  Ekin(MeV)=22591.6  material=G4_H  --->  #secondaries=9
+	 Collision 522  projectile=kaon0S  Ekin(MeV)=27797.2  material=G4_Si  --->  #secondaries=12
+	 Collision 523  projectile=pi-  Ekin(MeV)=22334.9  material=G4_Al  --->  #secondaries=8
+	 Collision 524  projectile=anti_He3  Ekin(MeV)=17759.3  material=G4_Cu  --->  #secondaries=21
+	 Collision 525  projectile=kaon-  Ekin(MeV)=13513.1  material=G4_Fe  --->  #secondaries=16
+	 Collision 526  projectile=sigma-  Ekin(MeV)=8965.06  material=G4_He  --->  #secondaries=7
+	 Collision 527  projectile=sigma-  Ekin(MeV)=13066.7  material=G4_Be  --->  #secondaries=8
+	 Collision 528  projectile=neutron  Ekin(MeV)=7657.81  material=G4_Ar  --->  #secondaries=7
+	 Collision 529  projectile=anti_proton  Ekin(MeV)=8827.62  material=G4_Fe  --->  #secondaries=18
+	 Collision 530  projectile=kaon0L  Ekin(MeV)=29334.4  material=G4_Cu  --->  #secondaries=25
+	 Collision 531  projectile=anti_xi0  Ekin(MeV)=9779.91  material=G4_Be  --->  #secondaries=10
+	 Collision 532  projectile=proton  Ekin(MeV)=13316.2  material=G4_Cu  --->  #secondaries=14
+	 Collision 533  projectile=anti_sigma+  Ekin(MeV)=28614  material=G4_Ar  --->  #secondaries=37
+	 Collision 534  projectile=anti_triton  Ekin(MeV)=3664.75  material=G4_H  --->  #secondaries=5
+	 Collision 535  projectile=sigma-  Ekin(MeV)=17707.8  material=G4_Pb  --->  #secondaries=18
+	 Collision 536  projectile=sigma+  Ekin(MeV)=6582.03  material=G4_Fe  --->  #secondaries=20
+	 Collision 537  projectile=anti_triton  Ekin(MeV)=19810.8  material=G4_H  --->  #secondaries=6
+	 Collision 538  projectile=anti_sigma+  Ekin(MeV)=24709.4  material=G4_Al  --->  #secondaries=24
+	 Collision 539  projectile=anti_proton  Ekin(MeV)=25227.9  material=G4_C  --->  #secondaries=14
+	 Collision 540  projectile=deuteron  Ekin(MeV)=16522.2  material=G4_Ar  --->  #secondaries=15
+	 Collision 541  projectile=alpha  Ekin(MeV)=11772.3  material=G4_W  --->  #secondaries=7
+	 Collision 542  projectile=He3  Ekin(MeV)=8773.55  material=G4_Fe  --->  #secondaries=16
+	 Collision 543  projectile=pi+  Ekin(MeV)=6433.56  material=G4_Pb  --->  #secondaries=105
+	 Collision 544  projectile=anti_xi0  Ekin(MeV)=28563.4  material=G4_Cu  --->  #secondaries=51
+	 Collision 545  projectile=pi-  Ekin(MeV)=22756.9  material=G4_Be  --->  #secondaries=13
+	 Collision 546  projectile=omega-  Ekin(MeV)=12508  material=G4_Pb  --->  #secondaries=6
+	 Collision 547  projectile=anti_triton  Ekin(MeV)=27062.9  material=G4_He  --->  #secondaries=17
+	 Collision 548  projectile=proton  Ekin(MeV)=25844.8  material=G4_Be  --->  #secondaries=11
+	 Collision 549  projectile=anti_alpha  Ekin(MeV)=13414.5  material=G4_Al  --->  #secondaries=33
+	 Collision 550  projectile=kaon+  Ekin(MeV)=5521.14  material=G4_H  --->  #secondaries=6
+	 Collision 551  projectile=anti_proton  Ekin(MeV)=15874.3  material=G4_Cu  --->  #secondaries=24
+	 Collision 552  projectile=anti_neutron  Ekin(MeV)=23037.4  material=G4_Al  --->  #secondaries=34
+	 Collision 553  projectile=anti_omega-  Ekin(MeV)=12125.6  material=G4_Si  --->  #secondaries=13
+	 Collision 554  projectile=anti_alpha  Ekin(MeV)=11480.8  material=G4_Ar  --->  #secondaries=12
+	 Collision 555  projectile=anti_triton  Ekin(MeV)=2750.15  material=G4_Be  --->  #secondaries=11
+	 Collision 556  projectile=proton  Ekin(MeV)=2760.99  material=G4_Al  --->  #secondaries=13
+	 Collision 557  projectile=lambda  Ekin(MeV)=6151.64  material=G4_C  --->  #secondaries=18
+	 Collision 558  projectile=kaon+  Ekin(MeV)=6908.48  material=G4_Si  --->  #secondaries=11
+	 Collision 559  projectile=alpha  Ekin(MeV)=6122.66  material=G4_C  --->  #secondaries=10
+	 Collision 560  projectile=He3  Ekin(MeV)=25647.7  material=G4_Ar  --->  #secondaries=17
+	 Collision 561  projectile=kaon+  Ekin(MeV)=21210.1  material=G4_W  --->  #secondaries=63
+	 Collision 562  projectile=anti_alpha  Ekin(MeV)=11000.5  material=G4_Fe  --->  #secondaries=51
+	 Collision 563  projectile=anti_lambda  Ekin(MeV)=10307  material=G4_Al  --->  #secondaries=13
+	 Collision 564  projectile=anti_alpha  Ekin(MeV)=10677  material=G4_Cu  --->  #secondaries=19
+	 Collision 565  projectile=lambda  Ekin(MeV)=18314.8  material=G4_W  --->  #secondaries=69
+	 Collision 566  projectile=anti_proton  Ekin(MeV)=8236.99  material=G4_Si  --->  #secondaries=8
+	 Collision 567  projectile=lambda  Ekin(MeV)=4916.63  material=G4_W  --->  #secondaries=92
+	 Collision 568  projectile=kaon+  Ekin(MeV)=6700.89  material=G4_Cu  --->  #secondaries=31
+	 Collision 569  projectile=anti_lambda  Ekin(MeV)=5985.6  material=G4_Fe  --->  #secondaries=18
+	 Collision 570  projectile=anti_sigma-  Ekin(MeV)=15947.7  material=G4_He  --->  #secondaries=9
+	 Collision 571  projectile=anti_neutron  Ekin(MeV)=11580.2  material=G4_Si  --->  #secondaries=20
+	 Collision 572  projectile=sigma-  Ekin(MeV)=14759.6  material=G4_W  --->  #secondaries=51
+	 Collision 573  projectile=alpha  Ekin(MeV)=14862.4  material=G4_Cu  --->  #secondaries=20
+	 Collision 574  projectile=triton  Ekin(MeV)=11762.1  material=G4_Al  --->  #secondaries=11
+	 Collision 575  projectile=anti_triton  Ekin(MeV)=7044.93  material=G4_Pb  --->  #secondaries=77
+	 Collision 576  projectile=xi-  Ekin(MeV)=18648.8  material=G4_H  --->  #secondaries=2
+	 Collision 577  projectile=xi-  Ekin(MeV)=25304.4  material=G4_C  --->  #secondaries=17
+	 Collision 578  projectile=lambda  Ekin(MeV)=25225.3  material=G4_Si  --->  #secondaries=25
+	 Collision 579  projectile=kaon0L  Ekin(MeV)=10935.2  material=G4_Pb  --->  #secondaries=26
+	 Collision 580  projectile=kaon-  Ekin(MeV)=14951.9  material=G4_Cu  --->  #secondaries=36
+	 Collision 581  projectile=kaon0L  Ekin(MeV)=25942.9  material=G4_Cu  --->  #secondaries=15
+	 Collision 582  projectile=alpha  Ekin(MeV)=1759.41  material=G4_Si  --->  #secondaries=9
+	 Collision 583  projectile=anti_alpha  Ekin(MeV)=7223.12  material=G4_C  --->  #secondaries=14
+	 Collision 584  projectile=triton  Ekin(MeV)=3564.3  material=G4_W  --->  #secondaries=18
+	 Collision 585  projectile=lambda  Ekin(MeV)=13775.1  material=G4_He  --->  #secondaries=4
+	 Collision 586  projectile=anti_sigma-  Ekin(MeV)=24233  material=G4_Fe  --->  #secondaries=27
+	 Collision 587  projectile=kaon0L  Ekin(MeV)=13300.5  material=G4_Fe  --->  #secondaries=18
+	 Collision 588  projectile=xi0  Ekin(MeV)=11465.9  material=G4_Si  --->  #secondaries=13
+	 Collision 589  projectile=anti_proton  Ekin(MeV)=26033.2  material=G4_C  --->  #secondaries=24
+	 Collision 590  projectile=omega-  Ekin(MeV)=26433.3  material=G4_Cu  --->  #secondaries=21
+	 Collision 591  projectile=anti_neutron  Ekin(MeV)=1116.15  material=G4_Be  --->  #secondaries=8
+	 Collision 592  projectile=anti_omega-  Ekin(MeV)=10598.5  material=G4_Cu  --->  #secondaries=37
+	 Collision 593  projectile=kaon-  Ekin(MeV)=27310.1  material=G4_C  --->  #secondaries=16
+	 Collision 594  projectile=sigma-  Ekin(MeV)=15696.3  material=G4_W  --->  #secondaries=67
+	 Collision 595  projectile=anti_sigma-  Ekin(MeV)=12050  material=G4_W  --->  #secondaries=63
+	 Collision 596  projectile=pi-  Ekin(MeV)=16121.9  material=G4_Ar  --->  #secondaries=9
+	 Collision 597  projectile=kaon0S  Ekin(MeV)=1730.78  material=G4_He  --->  #secondaries=5
+	 Collision 598  projectile=pi+  Ekin(MeV)=10650.5  material=G4_He  --->  #secondaries=6
+	 Collision 599  projectile=kaon0S  Ekin(MeV)=28789.7  material=G4_He  --->  #secondaries=9
+	 Collision 600  projectile=anti_triton  Ekin(MeV)=12520.3  material=G4_Be  --->  #secondaries=12
+	 	 List of produced secondaries: 
+	 	 	 j=0	pi0	 p=(370.924,545.96,-73.3643677.686) MeV
+	 	 	 j=1	eta_prime	 p=(343.155,571.187,526.5921280.1) MeV
+	 	 	 j=2	pi+	 p=(391.139,535.481,-516.628852.123) MeV
+	 	 	 j=3	pi-	 p=(1449.05,1469.82,-118.5362072.11) MeV
+	 	 	 j=4	pi-	 p=(863.298,615.89,-206.8321089.43) MeV
+	 	 	 j=5	pi0	 p=(-268.271,199.301,196.054410.3) MeV
+	 	 	 j=6	alpha	 p=(270.548,330.972,7.761383751.82) MeV
+	 	 	 j=7	neutron	 p=(26.8751,147.382,-76.824954.531) MeV
+	 	 	 j=8	deuteron	 p=(271.107,-168.248,107.2741905.58) MeV
+	 	 	 j=9	proton	 p=(-186.478,-41.8383,-0.793276957.538) MeV
+	 	 	 j=10	anti_neutron	 p=(3098.42,3552.19,249.5054812.83) MeV
+	 	 	 j=11	anti_neutron	 p=(3326.18,3552.27,123.9984957.84) MeV
+	 Collision 601  projectile=anti_sigma+  Ekin(MeV)=25596.5  material=G4_Pb  --->  #secondaries=63
+	 Collision 602  projectile=triton  Ekin(MeV)=2164.14  material=G4_Al  --->  #secondaries=8
+	 Collision 603  projectile=anti_xi0  Ekin(MeV)=22031.3  material=G4_Be  --->  #secondaries=9
+	 Collision 604  projectile=anti_alpha  Ekin(MeV)=6678.1  material=G4_Cu  --->  #secondaries=40
+	 Collision 605  projectile=anti_lambda  Ekin(MeV)=24640.3  material=G4_H  --->  #secondaries=11
+	 Collision 606  projectile=anti_neutron  Ekin(MeV)=27175.8  material=G4_Si  --->  #secondaries=28
+	 Collision 607  projectile=pi+  Ekin(MeV)=26922.2  material=G4_Si  --->  #secondaries=14
+	 Collision 608  projectile=anti_triton  Ekin(MeV)=22083.4  material=G4_He  --->  #secondaries=6
+	 Collision 609  projectile=triton  Ekin(MeV)=8466.62  material=G4_Cu  --->  #secondaries=5
+	 Collision 610  projectile=kaon+  Ekin(MeV)=7979.42  material=G4_He  --->  #secondaries=7
+	 Collision 611  projectile=anti_He3  Ekin(MeV)=10097.3  material=G4_Fe  --->  #secondaries=25
+	 Collision 612  projectile=sigma-  Ekin(MeV)=6213.39  material=G4_He  --->  #secondaries=9
+	 Collision 613  projectile=anti_deuteron  Ekin(MeV)=3825.31  material=G4_Be  --->  #secondaries=6
+	 Collision 614  projectile=sigma+  Ekin(MeV)=29629.2  material=G4_H  --->  #secondaries=10
+	 Collision 615  projectile=xi0  Ekin(MeV)=7451.2  material=G4_Be  --->  #secondaries=13
+	 Collision 616  projectile=deuteron  Ekin(MeV)=1078.63  material=G4_Pb  --->  #secondaries=12
+	 Collision 617  projectile=anti_lambda  Ekin(MeV)=23894.9  material=G4_Si  --->  #secondaries=18
+	 Collision 618  projectile=xi0  Ekin(MeV)=20065.6  material=G4_C  --->  #secondaries=9
+	 Collision 619  projectile=pi+  Ekin(MeV)=12712.5  material=G4_Pb  --->  #secondaries=78
+	 Collision 620  projectile=lambda  Ekin(MeV)=3138.71  material=G4_Cu  --->  #secondaries=30
+	 Collision 621  projectile=sigma-  Ekin(MeV)=4805.11  material=G4_Be  --->  #secondaries=9
+	 Collision 622  projectile=kaon0S  Ekin(MeV)=8484.26  material=G4_Ar  --->  #secondaries=37
+	 Collision 623  projectile=anti_sigma+  Ekin(MeV)=10264.4  material=G4_Ar  --->  #secondaries=38
+	 Collision 624  projectile=anti_lambda  Ekin(MeV)=16351.6  material=G4_Pb  --->  #secondaries=62
+	 Collision 625  projectile=anti_He3  Ekin(MeV)=25839.4  material=G4_Pb  --->  #secondaries=167
+	 Collision 626  projectile=pi+  Ekin(MeV)=5947.8  material=G4_Ar  --->  #secondaries=23
+	 Collision 627  projectile=anti_xi-  Ekin(MeV)=8957.78  material=G4_Si  --->  #secondaries=24
+	 Collision 628  projectile=kaon+  Ekin(MeV)=13241.3  material=G4_C  --->  #secondaries=14
+	 Collision 629  projectile=xi-  Ekin(MeV)=26794.7  material=G4_He  --->  #secondaries=4
+	 Collision 630  projectile=neutron  Ekin(MeV)=7863.84  material=G4_Pb  --->  #secondaries=11
+	 Collision 631  projectile=anti_alpha  Ekin(MeV)=28502  material=G4_W  --->  #secondaries=72
+	 Collision 632  projectile=anti_proton  Ekin(MeV)=24763.4  material=G4_He  --->  #secondaries=7
+	 Collision 633  projectile=kaon+  Ekin(MeV)=14920.9  material=G4_C  --->  #secondaries=16
+	 Collision 634  projectile=anti_proton  Ekin(MeV)=1102.17  material=G4_C  --->  #secondaries=14
+	 Collision 635  projectile=kaon-  Ekin(MeV)=26541.5  material=G4_He  --->  #secondaries=6
+	 Collision 636  projectile=anti_He3  Ekin(MeV)=29825.4  material=G4_H  --->  #secondaries=5
+	 Collision 637  projectile=anti_alpha  Ekin(MeV)=13487.5  material=G4_H  --->  #secondaries=4
+	 Collision 638  projectile=anti_He3  Ekin(MeV)=14046.3  material=G4_H  --->  #secondaries=10
+	 Collision 639  projectile=anti_xi-  Ekin(MeV)=26163.5  material=G4_Pb  --->  #secondaries=72
+	 Collision 640  projectile=kaon0L  Ekin(MeV)=11065.7  material=G4_C  --->  #secondaries=11
+	 Collision 641  projectile=sigma+  Ekin(MeV)=1666.55  material=G4_Si  --->  #secondaries=13
+	 Collision 642  projectile=He3  Ekin(MeV)=17583.4  material=G4_Cu  --->  #secondaries=62
+	 Collision 643  projectile=kaon+  Ekin(MeV)=7029.81  material=G4_W  --->  #secondaries=50
+	 Collision 644  projectile=xi0  Ekin(MeV)=21212.5  material=G4_Fe  --->  #secondaries=39
+	 Collision 645  projectile=anti_alpha  Ekin(MeV)=26317.1  material=G4_Be  --->  #secondaries=10
+	 Collision 646  projectile=kaon-  Ekin(MeV)=7003.56  material=G4_Cu  --->  #secondaries=19
+	 Collision 647  projectile=pi+  Ekin(MeV)=23027.8  material=G4_Si  --->  #secondaries=16
+	 Collision 648  projectile=anti_sigma+  Ekin(MeV)=21010.1  material=G4_C  --->  #secondaries=19
+	 Collision 649  projectile=sigma-  Ekin(MeV)=14993  material=G4_Ar  --->  #secondaries=37
+	 Collision 650  projectile=anti_xi0  Ekin(MeV)=10605.7  material=G4_Cu  --->  #secondaries=15
+	 Collision 651  projectile=kaon0L  Ekin(MeV)=17286.5  material=G4_C  --->  #secondaries=12
+	 Collision 652  projectile=pi+  Ekin(MeV)=4943.36  material=G4_He  --->  #secondaries=10
+	 Collision 653  projectile=anti_alpha  Ekin(MeV)=4400.73  material=G4_Pb  --->  #secondaries=80
+	 Collision 654  projectile=kaon+  Ekin(MeV)=13351.7  material=G4_Cu  --->  #secondaries=14
+	 Collision 655  projectile=anti_sigma-  Ekin(MeV)=1963.95  material=G4_H  --->  #secondaries=3
+	 Collision 656  projectile=triton  Ekin(MeV)=20578.7  material=G4_W  --->  #secondaries=102
+	 Collision 657  projectile=xi-  Ekin(MeV)=27343.2  material=G4_Pb  --->  #secondaries=62
+	 Collision 658  projectile=anti_neutron  Ekin(MeV)=28662.2  material=G4_Al  --->  #secondaries=23
+	 Collision 659  projectile=anti_neutron  Ekin(MeV)=28813.9  material=G4_Si  --->  #secondaries=25
+	 Collision 660  projectile=anti_triton  Ekin(MeV)=29178.5  material=G4_Si  --->  #secondaries=26
+	 Collision 661  projectile=sigma-  Ekin(MeV)=8610.38  material=G4_Cu  --->  #secondaries=27
+	 Collision 662  projectile=deuteron  Ekin(MeV)=21818.3  material=G4_W  --->  #secondaries=93
+	 Collision 663  projectile=anti_sigma-  Ekin(MeV)=23040.5  material=G4_W  --->  #secondaries=26
+	 Collision 664  projectile=anti_omega-  Ekin(MeV)=19022.3  material=G4_Si  --->  #secondaries=30
+	 Collision 665  projectile=anti_sigma+  Ekin(MeV)=19251.2  material=G4_He  --->  #secondaries=13
+	 Collision 666  projectile=anti_triton  Ekin(MeV)=3966.15  material=G4_Fe  --->  #secondaries=28
+	 Collision 667  projectile=anti_xi-  Ekin(MeV)=14190.9  material=G4_Be  --->  #secondaries=7
+	 Collision 668  projectile=anti_omega-  Ekin(MeV)=17967.3  material=G4_Cu  --->  #secondaries=28
+	 Collision 669  projectile=anti_deuteron  Ekin(MeV)=28874.6  material=G4_Be  --->  #secondaries=10
+	 Collision 670  projectile=lambda  Ekin(MeV)=12217  material=G4_Si  --->  #secondaries=22
+	 Collision 671  projectile=anti_deuteron  Ekin(MeV)=29416.6  material=G4_C  --->  #secondaries=16
+	 Collision 672  projectile=kaon+  Ekin(MeV)=27703.4  material=G4_Ar  --->  #secondaries=20
+	 Collision 673  projectile=pi-  Ekin(MeV)=21747  material=G4_Pb  --->  #secondaries=70
+	 Collision 674  projectile=He3  Ekin(MeV)=8854.42  material=G4_Al  --->  #secondaries=6
+	 Collision 675  projectile=anti_neutron  Ekin(MeV)=7961.64  material=G4_Be  --->  #secondaries=8
+	 Collision 676  projectile=anti_omega-  Ekin(MeV)=10727.5  material=G4_Fe  --->  #secondaries=22
+	 Collision 677  projectile=pi+  Ekin(MeV)=6517.4  material=G4_Pb  --->  #secondaries=29
+	 Collision 678  projectile=sigma+  Ekin(MeV)=27238.6  material=G4_Ar  --->  #secondaries=15
+	 Collision 679  projectile=xi-  Ekin(MeV)=14884.5  material=G4_Pb  --->  #secondaries=62
+	 Collision 680  projectile=anti_neutron  Ekin(MeV)=21300.9  material=G4_Cu  --->  #secondaries=31
+	 Collision 681  projectile=kaon0S  Ekin(MeV)=11473.4  material=G4_H  --->  #secondaries=6
+	 Collision 682  projectile=deuteron  Ekin(MeV)=7970  material=G4_Be  --->  #secondaries=7
+	 Collision 683  projectile=kaon0S  Ekin(MeV)=18509.2  material=G4_Pb  --->  #secondaries=65
+	 Collision 684  projectile=sigma+  Ekin(MeV)=10560.1  material=G4_H  --->  #secondaries=3
+	 Collision 685  projectile=anti_neutron  Ekin(MeV)=8362.34  material=G4_Al  --->  #secondaries=15
+	 Collision 686  projectile=anti_xi-  Ekin(MeV)=10177  material=G4_H  --->  #secondaries=4
+	 Collision 687  projectile=proton  Ekin(MeV)=11120  material=G4_He  --->  #secondaries=6
+	 Collision 688  projectile=He3  Ekin(MeV)=4639.69  material=G4_Cu  --->  #secondaries=13
+	 Collision 689  projectile=anti_He3  Ekin(MeV)=12465.5  material=G4_C  --->  #secondaries=18
+	 Collision 690  projectile=sigma+  Ekin(MeV)=19066.8  material=G4_He  --->  #secondaries=13
+	 Collision 691  projectile=sigma+  Ekin(MeV)=5276.13  material=G4_C  --->  #secondaries=9
+	 Collision 692  projectile=omega-  Ekin(MeV)=14147.3  material=G4_Be  --->  #secondaries=5
+	 Collision 693  projectile=anti_xi-  Ekin(MeV)=26320.9  material=G4_Si  --->  #secondaries=13
+	 Collision 694  projectile=anti_proton  Ekin(MeV)=18186.1  material=G4_H  --->  #secondaries=8
+	 Collision 695  projectile=sigma+  Ekin(MeV)=14737.5  material=G4_Pb  --->  #secondaries=65
+	 Collision 696  projectile=anti_sigma-  Ekin(MeV)=27308.6  material=G4_Al  --->  #secondaries=18
+	 Collision 697  projectile=proton  Ekin(MeV)=26924.1  material=G4_W  --->  #secondaries=76
+	 Collision 698  projectile=kaon-  Ekin(MeV)=19203.7  material=G4_Cu  --->  #secondaries=15
+	 Collision 699  projectile=anti_proton  Ekin(MeV)=18382  material=G4_W  --->  #secondaries=64
+	 Collision 700  projectile=anti_omega-  Ekin(MeV)=26375.5  material=G4_Pb  --->  #secondaries=41
+	 	 List of produced secondaries: 
+	 	 	 j=0	anti_xi-	 p=(865.185,4619.58,4164.536417.11) MeV
+	 	 	 j=1	pi-	 p=(209.66,299.462,279.636480.948) MeV
+	 	 	 j=2	proton	 p=(-10.9504,1442.61,1774.972472.27) MeV
+	 	 	 j=3	pi0	 p=(393.786,643.873,441.136884.568) MeV
+	 	 	 j=4	pi+	 p=(1236.23,8327.95,7185.0811069.2) MeV
+	 	 	 j=5	pi0	 p=(222.287,2670.85,1893.873284.48) MeV
+	 	 	 j=6	neutron	 p=(790.643,-18.7208,348.5821276.62) MeV
+	 	 	 j=7	neutron	 p=(223.411,139.488,-167.962990.133) MeV
+	 	 	 j=8	neutron	 p=(-171.256,-304.968,-117.5951009.43) MeV
+	 	 	 j=9	proton	 p=(-287.563,167.713,34.8103996.186) MeV
+	 	 	 j=10	pi0	 p=(-264.767,916.305,791.1871246.56) MeV
+	 	 	 j=11	kaon+	 p=(77.4948,428.482,448.404796.483) MeV
+	 	 	 j=12	pi0	 p=(289.678,86.2998,116.179350.823) MeV
+	 	 	 j=13	pi-	 p=(-75.7301,676.603,643.087946.873) MeV
+	 	 	 j=14	neutron	 p=(138.531,-200.096,80.6354973.917) MeV
+	 	 	 j=15	neutron	 p=(-264.924,68.2709,-21.7548978.827) MeV
+	 	 	 j=16	neutron	 p=(233.245,-150.617,-13.4672979.823) MeV
+	 	 	 j=17	neutron	 p=(-127.761,52.6722,98.2419954.742) MeV
+	 	 	 j=18	neutron	 p=(-52.0993,-188.376,42.2564960.608) MeV
+	 	 	 j=19	proton	 p=(71.9496,30.3978,204.163963.399) MeV
+	 	 	 j=20	neutron	 p=(81.5138,109.377,-133.19958.713) MeV
+	 	 	 j=21	deuteron	 p=(-141.173,-228.545,277.521914.97) MeV
+	 	 	 j=22	neutron	 p=(52.6944,-20.7071,70.711943.922) MeV
+	 	 	 j=23	neutron	 p=(-39.6273,-3.41254,46.3128941.547) MeV
+	 	 	 j=24	neutron	 p=(-72.8485,74.8998,-71.0031948.02) MeV
+	 	 	 j=25	neutron	 p=(-45.9012,-23.0466,29.454941.429) MeV
+	 	 	 j=26	neutron	 p=(-62.8203,8.89017,-35.9029942.389) MeV
+	 	 	 j=27	triton	 p=(-232.569,190.835,181.9072830.84) MeV
+	 	 	 j=28	neutron	 p=(62.3875,-10.2282,123.596949.766) MeV
+	 	 	 j=29	neutron	 p=(-18.1341,-50.3723,25.704941.44) MeV
+	 	 	 j=30	neutron	 p=(83.102,-49.8153,41.8309945.474) MeV
+	 	 	 j=31	neutron	 p=(28.8188,57.27,53.6058943.275) MeV
+	 	 	 j=32	neutron	 p=(-35.7719,-62.4371,-38.5463943.105) MeV
+	 	 	 j=33	neutron	 p=(2.40724,116.297,5.10053946.752) MeV
+	 	 	 j=34	neutron	 p=(-18.3702,28.6592,82.3858943.785) MeV
+	 	 	 j=35	gamma	 p=(0.245538,0.0618309,0.3226880.41017) MeV
+	 	 	 j=36	gamma	 p=(0.35244,0.330943,0.1449910.504737) MeV
+	 	 	 j=37	gamma	 p=(0.106946,-0.109255,0.393620.422269) MeV
+	 	 	 j=38	gamma	 p=(-0.124157,-0.212328,-0.2288520.335963) MeV
+	 	 	 j=39	gamma	 p=(0.653906,0.463627,-0.107050.808704) MeV
+	 	 	 j=40	Ir179	 p=(321.12,932.765,-443.253166664) MeV
+	 Collision 701  projectile=anti_proton  Ekin(MeV)=28313.2  material=G4_H  --->  #secondaries=10
+	 Collision 702  projectile=sigma-  Ekin(MeV)=25073.1  material=G4_Al  --->  #secondaries=11
+	 Collision 703  projectile=anti_lambda  Ekin(MeV)=11331.7  material=G4_Be  --->  #secondaries=13
+	 Collision 704  projectile=omega-  Ekin(MeV)=5709.53  material=G4_H  --->  #secondaries=5
+	 Collision 705  projectile=anti_lambda  Ekin(MeV)=7242.12  material=G4_Al  --->  #secondaries=15
+	 Collision 706  projectile=pi+  Ekin(MeV)=17776.4  material=G4_Pb  --->  #secondaries=61
+	 Collision 707  projectile=alpha  Ekin(MeV)=3334.75  material=G4_W  --->  #secondaries=50
+	 Collision 708  projectile=triton  Ekin(MeV)=20556.9  material=G4_Al  --->  #secondaries=30
+	 Collision 709  projectile=anti_neutron  Ekin(MeV)=14793.1  material=G4_He  --->  #secondaries=9
+	 Collision 710  projectile=anti_omega-  Ekin(MeV)=10466  material=G4_Pb  --->  #secondaries=46
+	 Collision 711  projectile=xi-  Ekin(MeV)=26767.4  material=G4_Fe  --->  #secondaries=38
+	 Collision 712  projectile=anti_He3  Ekin(MeV)=5231.92  material=G4_He  --->  #secondaries=10
+	 Collision 713  projectile=anti_xi-  Ekin(MeV)=23651.3  material=G4_H  --->  #secondaries=8
+	 Collision 714  projectile=sigma+  Ekin(MeV)=24004.1  material=G4_He  --->  #secondaries=11
+	 Collision 715  projectile=xi-  Ekin(MeV)=7908.87  material=G4_W  --->  #secondaries=74
+	 Collision 716  projectile=anti_He3  Ekin(MeV)=5024.18  material=G4_Al  --->  #secondaries=41
+	 Collision 717  projectile=anti_lambda  Ekin(MeV)=27583.4  material=G4_Pb  --->  #secondaries=24
+	 Collision 718  projectile=omega-  Ekin(MeV)=3197.9  material=G4_He  --->  #secondaries=7
+	 Collision 719  projectile=pi-  Ekin(MeV)=9421.66  material=G4_H  --->  #secondaries=5
+	 Collision 720  projectile=anti_neutron  Ekin(MeV)=24374.8  material=G4_Pb  --->  #secondaries=96
+	 Collision 721  projectile=pi-  Ekin(MeV)=20397.7  material=G4_Fe  --->  #secondaries=34
+	 Collision 722  projectile=sigma-  Ekin(MeV)=3137.43  material=G4_Pb  --->  #secondaries=20
+	 Collision 723  projectile=sigma-  Ekin(MeV)=16883.5  material=G4_Al  --->  #secondaries=31
+	 Collision 724  projectile=anti_sigma+  Ekin(MeV)=25899.3  material=G4_He  --->  #secondaries=7
+	 Collision 725  projectile=anti_sigma+  Ekin(MeV)=5375.18  material=G4_Ar  --->  #secondaries=28
+	 Collision 726  projectile=kaon-  Ekin(MeV)=14810.7  material=G4_Al  --->  #secondaries=15
+	 Collision 727  projectile=anti_proton  Ekin(MeV)=3663.01  material=G4_Be  --->  #secondaries=5
+	 Collision 728  projectile=anti_neutron  Ekin(MeV)=1199.57  material=G4_Cu  --->  #secondaries=25
+	 Collision 729  projectile=proton  Ekin(MeV)=11592.3  material=G4_C  --->  #secondaries=8
+	 Collision 730  projectile=xi-  Ekin(MeV)=3870.49  material=G4_C  --->  #secondaries=15
+	 Collision 731  projectile=anti_lambda  Ekin(MeV)=29868  material=G4_Pb  --->  #secondaries=73
+	 Collision 732  projectile=anti_triton  Ekin(MeV)=24445.1  material=G4_Pb  --->  #secondaries=86
+	 Collision 733  projectile=sigma-  Ekin(MeV)=6799.32  material=G4_H  --->  #secondaries=5
+	 Collision 734  projectile=kaon0L  Ekin(MeV)=23801.6  material=G4_H  --->  #secondaries=5
+	 Collision 735  projectile=xi-  Ekin(MeV)=1063.57  material=G4_Si  --->  #secondaries=4
+	 Collision 736  projectile=anti_proton  Ekin(MeV)=6025.33  material=G4_C  --->  #secondaries=11
+	 Collision 737  projectile=pi-  Ekin(MeV)=5881.8  material=G4_C  --->  #secondaries=18
+	 Collision 738  projectile=neutron  Ekin(MeV)=21332  material=G4_H  --->  #secondaries=9
+	 Collision 739  projectile=anti_xi0  Ekin(MeV)=7682.9  material=G4_Pb  --->  #secondaries=18
+	 Collision 740  projectile=anti_neutron  Ekin(MeV)=27956.6  material=G4_H  --->  #secondaries=8
+	 Collision 741  projectile=kaon-  Ekin(MeV)=16395.4  material=G4_C  --->  #secondaries=6
+	 Collision 742  projectile=kaon0S  Ekin(MeV)=13861.2  material=G4_He  --->  #secondaries=8
+	 Collision 743  projectile=xi-  Ekin(MeV)=1267.8  material=G4_Fe  --->  #secondaries=13
+	 Collision 744  projectile=deuteron  Ekin(MeV)=1345.77  material=G4_Al  --->  #secondaries=14
+	 Collision 745  projectile=anti_omega-  Ekin(MeV)=26314.5  material=G4_He  --->  #secondaries=11
+	 Collision 746  projectile=anti_neutron  Ekin(MeV)=22247.9  material=G4_C  --->  #secondaries=12
+	 Collision 747  projectile=triton  Ekin(MeV)=10854.8  material=G4_Be  --->  #secondaries=10
+	 Collision 748  projectile=xi-  Ekin(MeV)=9851.48  material=G4_Fe  --->  #secondaries=33
+	 Collision 749  projectile=anti_alpha  Ekin(MeV)=8833.95  material=G4_Al  --->  #secondaries=19
+	 Collision 750  projectile=triton  Ekin(MeV)=18090.2  material=G4_Al  --->  #secondaries=35
+	 Collision 751  projectile=deuteron  Ekin(MeV)=1201.24  material=G4_Be  --->  #secondaries=5
+	 Collision 752  projectile=anti_sigma+  Ekin(MeV)=29037.4  material=G4_W  --->  #secondaries=25
+	 Collision 753  projectile=pi+  Ekin(MeV)=21784.7  material=G4_He  --->  #secondaries=9
+	 Collision 754  projectile=sigma-  Ekin(MeV)=24858.3  material=G4_W  --->  #secondaries=91
+	 Collision 755  projectile=pi-  Ekin(MeV)=27055.8  material=G4_Si  --->  #secondaries=28
+	 Collision 756  projectile=anti_omega-  Ekin(MeV)=9833.56  material=G4_Fe  --->  #secondaries=23
+	 Collision 757  projectile=pi+  Ekin(MeV)=8985.52  material=G4_H  --->  #secondaries=3
+	 Collision 758  projectile=kaon0S  Ekin(MeV)=16796.2  material=G4_Cu  --->  #secondaries=24
+	 Collision 759  projectile=anti_sigma-  Ekin(MeV)=25998.4  material=G4_Pb  --->  #secondaries=76
+	 Collision 760  projectile=He3  Ekin(MeV)=26379.1  material=G4_Si  --->  #secondaries=30
+	 Collision 761  projectile=anti_triton  Ekin(MeV)=15064.5  material=G4_Cu  --->  #secondaries=46
+	 Collision 762  projectile=anti_alpha  Ekin(MeV)=20382.5  material=G4_Pb  --->  #secondaries=174
+	 Collision 763  projectile=anti_omega-  Ekin(MeV)=15204.5  material=G4_Be  --->  #secondaries=11
+	 Collision 764  projectile=neutron  Ekin(MeV)=5475.14  material=G4_Si  --->  #secondaries=17
+	 Collision 765  projectile=xi-  Ekin(MeV)=15727.7  material=G4_C  --->  #secondaries=14
+	 Collision 766  projectile=lambda  Ekin(MeV)=16808.4  material=G4_W  --->  #secondaries=20
+	 Collision 767  projectile=anti_neutron  Ekin(MeV)=9908.65  material=G4_Cu  --->  #secondaries=21
+	 Collision 768  projectile=omega-  Ekin(MeV)=10186.7  material=G4_Fe  --->  #secondaries=48
+	 Collision 769  projectile=xi-  Ekin(MeV)=13587.9  material=G4_Pb  --->  #secondaries=60
+	 Collision 770  projectile=anti_triton  Ekin(MeV)=23035  material=G4_Be  --->  #secondaries=8
+	 Collision 771  projectile=anti_He3  Ekin(MeV)=4404.77  material=G4_W  --->  #secondaries=89
+	 Collision 772  projectile=anti_xi0  Ekin(MeV)=21836.2  material=G4_Si  --->  #secondaries=13
+	 Collision 773  projectile=sigma-  Ekin(MeV)=2429.76  material=G4_Fe  --->  #secondaries=18
+	 Collision 774  projectile=sigma+  Ekin(MeV)=4450.12  material=G4_Fe  --->  #secondaries=8
+	 Collision 775  projectile=omega-  Ekin(MeV)=17613.9  material=G4_Fe  --->  #secondaries=15
+	 Collision 776  projectile=kaon0L  Ekin(MeV)=21276.7  material=G4_Ar  --->  #secondaries=17
+	 Collision 777  projectile=kaon-  Ekin(MeV)=5879.51  material=G4_Pb  --->  #secondaries=75
+	 Collision 778  projectile=anti_sigma+  Ekin(MeV)=21354.1  material=G4_H  --->  #secondaries=9
+	 Collision 779  projectile=anti_sigma-  Ekin(MeV)=16712  material=G4_Cu  --->  #secondaries=33
+	 Collision 780  projectile=pi-  Ekin(MeV)=25819  material=G4_Si  --->  #secondaries=21
+	 Collision 781  projectile=anti_He3  Ekin(MeV)=7627.39  material=G4_Al  --->  #secondaries=12
+	 Collision 782  projectile=anti_proton  Ekin(MeV)=21734.5  material=G4_C  --->  #secondaries=17
+	 Collision 783  projectile=pi-  Ekin(MeV)=4827.68  material=G4_He  --->  #secondaries=8
+	 Collision 784  projectile=anti_xi0  Ekin(MeV)=4894.66  material=G4_Al  --->  #secondaries=11
+	 Collision 785  projectile=anti_proton  Ekin(MeV)=22990.7  material=G4_Fe  --->  #secondaries=25
+	 Collision 786  projectile=anti_lambda  Ekin(MeV)=15403.5  material=G4_Si  --->  #secondaries=15
+	 Collision 787  projectile=anti_xi0  Ekin(MeV)=19062.3  material=G4_H  --->  #secondaries=9
+	 Collision 788  projectile=lambda  Ekin(MeV)=3942.97  material=G4_Fe  --->  #secondaries=16
+	 Collision 789  projectile=alpha  Ekin(MeV)=7560.96  material=G4_He  --->  #secondaries=9
+	 Collision 790  projectile=alpha  Ekin(MeV)=10391.2  material=G4_He  --->  #secondaries=6
+	 Collision 791  projectile=anti_sigma-  Ekin(MeV)=16472.5  material=G4_Ar  --->  #secondaries=21
+	 Collision 792  projectile=xi0  Ekin(MeV)=20775.9  material=G4_H  --->  #secondaries=7
+	 Collision 793  projectile=anti_proton  Ekin(MeV)=23558.2  material=G4_He  --->  #secondaries=12
+	 Collision 794  projectile=sigma+  Ekin(MeV)=24949.7  material=G4_C  --->  #secondaries=18
+	 Collision 795  projectile=pi-  Ekin(MeV)=10139.8  material=G4_C  --->  #secondaries=8
+	 Collision 796  projectile=proton  Ekin(MeV)=17651.6  material=G4_He  --->  #secondaries=9
+	 Collision 797  projectile=xi-  Ekin(MeV)=6021.11  material=G4_Be  --->  #secondaries=7
+	 Collision 798  projectile=xi0  Ekin(MeV)=18812.1  material=G4_Be  --->  #secondaries=5
+	 Collision 799  projectile=He3  Ekin(MeV)=26865.3  material=G4_Cu  --->  #secondaries=53
+	 Collision 800  projectile=neutron  Ekin(MeV)=4161.87  material=G4_Pb  --->  #secondaries=43
+	 	 List of produced secondaries: 
+	 	 	 j=0	proton	 p=(140.284,629.371,1540.521915.55) MeV
+	 	 	 j=1	proton	 p=(-35.7138,568.324,875.4961403.96) MeV
+	 	 	 j=2	pi-	 p=(-325.849,246.306,345.842553.11) MeV
+	 	 	 j=3	pi0	 p=(-134.212,-76.447,398.511448.204) MeV
+	 	 	 j=4	neutron	 p=(46.983,-106.365,-617.7021130.42) MeV
+	 	 	 j=5	neutron	 p=(524.294,-99.3216,-106.5651085.77) MeV
+	 	 	 j=6	neutron	 p=(-285.571,133.882,361.1171054.83) MeV
+	 	 	 j=7	neutron	 p=(63.1956,100.632,453.391049.98) MeV
+	 	 	 j=8	neutron	 p=(-307.845,-21.4751,301.1711033.79) MeV
+	 	 	 j=9	pi0	 p=(124.037,71.7726,-57.5675205.108) MeV
+	 	 	 j=10	neutron	 p=(236.406,-8.97842,280.9631008.81) MeV
+	 	 	 j=11	neutron	 p=(315.466,-132.544,-59.08981001.68) MeV
+	 	 	 j=12	neutron	 p=(-324.576,-108.892,27.40431000.37) MeV
+	 	 	 j=13	pi0	 p=(-13.652,2.84133,83.6887159.427) MeV
+	 	 	 j=14	neutron	 p=(-32.3902,-185.994,-5.33664958.36) MeV
+	 	 	 j=15	neutron	 p=(138.402,96.1916,47.841955.761) MeV
+	 	 	 j=16	proton	 p=(2.09448,168.91,-9.15605953.401) MeV
+	 	 	 j=17	neutron	 p=(-24.0051,-127.64,-77.0966951.628) MeV
+	 	 	 j=18	proton	 p=(95.4467,77.6582,75.5994949.321) MeV
+	 	 	 j=19	proton	 p=(64.4684,112.106,34.6561947.776) MeV
+	 	 	 j=20	neutron	 p=(-121.336,55.1638,8.14202949.007) MeV
+	 	 	 j=21	neutron	 p=(39.3565,-120.697,-22.0416948.359) MeV
+	 	 	 j=22	neutron	 p=(68.3562,-68.8519,-64.1859946.74) MeV
+	 	 	 j=23	neutron	 p=(-74.6803,48.2359,67.65946.184) MeV
+	 	 	 j=24	neutron	 p=(99.5435,28.7522,-30.2962945.747) MeV
+	 	 	 j=25	neutron	 p=(18.8411,81.9011,51.5693944.725) MeV
+	 	 	 j=26	neutron	 p=(-82.5821,-17.3328,38.7933944.144) MeV
+	 	 	 j=27	neutron	 p=(-86.7647,7.99061,-2.40251943.6) MeV
+	 	 	 j=28	gamma	 p=(-0.384135,-3.20369,-2.202513.90669) MeV
+	 	 	 j=29	neutron	 p=(-3.51587,-18.3093,-68.5253942.245) MeV
+	 	 	 j=30	neutron	 p=(20.7136,-10.877,52.1144941.3) MeV
+	 	 	 j=31	neutron	 p=(-48.1432,-1.74595,26.9926941.187) MeV
+	 	 	 j=32	neutron	 p=(4.58482,5.36414,50.8441940.967) MeV
+	 	 	 j=33	gamma	 p=(-0.363396,-0.282397,0.5963310.75327) MeV
+	 	 	 j=34	neutron	 p=(-6.69864,33.943,-12.3799940.284) MeV
+	 	 	 j=35	neutron	 p=(-11.324,32.7507,10.263940.26) MeV
+	 	 	 j=36	neutron	 p=(-22.1449,8.04738,19.6026940.065) MeV
+	 	 	 j=37	neutron	 p=(0.297825,-28.3771,5.00944940.007) MeV
+	 	 	 j=38	gamma	 p=(0.19982,0.0464787,-0.03108290.207495) MeV
+	 	 	 j=39	triton	 p=(539.217,-207.239,-111.8392869.89) MeV
+	 	 	 j=40	alpha	 p=(-288.718,68.4348,242.8173747.05) MeV
+	 	 	 j=41	deuteron	 p=(215.164,20.2258,103.0421890.83) MeV
+	 	 	 j=42	W167	 p=(150.894,736.662,294.553155482) MeV
+	 Collision 801  projectile=anti_triton  Ekin(MeV)=23422.6  material=G4_Be  --->  #secondaries=14
+	 Collision 802  projectile=anti_He3  Ekin(MeV)=16417  material=G4_Al  --->  #secondaries=7
+	 Collision 803  projectile=kaon0S  Ekin(MeV)=8398.16  material=G4_Al  --->  #secondaries=13
+	 Collision 804  projectile=anti_triton  Ekin(MeV)=25677.9  material=G4_Pb  --->  #secondaries=79
+	 Collision 805  projectile=xi0  Ekin(MeV)=23904  material=G4_Pb  --->  #secondaries=81
+	 Collision 806  projectile=anti_sigma-  Ekin(MeV)=3523.19  material=G4_He  --->  #secondaries=6
+	 Collision 807  projectile=anti_sigma+  Ekin(MeV)=22288.6  material=G4_W  --->  #secondaries=44
+	 Collision 808  projectile=anti_alpha  Ekin(MeV)=10102  material=G4_H  --->  #secondaries=6
+	 Collision 809  projectile=anti_sigma+  Ekin(MeV)=14442  material=G4_He  --->  #secondaries=10
+	 Collision 810  projectile=anti_xi-  Ekin(MeV)=2673.89  material=G4_H  --->  #secondaries=3
+	 Collision 811  projectile=anti_sigma-  Ekin(MeV)=2938.92  material=G4_W  --->  #secondaries=45
+	 Collision 812  projectile=proton  Ekin(MeV)=23233.4  material=G4_Pb  --->  #secondaries=71
+	 Collision 813  projectile=anti_sigma-  Ekin(MeV)=18208.5  material=G4_Si  --->  #secondaries=26
+	 Collision 814  projectile=triton  Ekin(MeV)=22362.2  material=G4_W  --->  #secondaries=95
+	 Collision 815  projectile=pi-  Ekin(MeV)=4289.11  material=G4_Fe  --->  #secondaries=7
+	 Collision 816  projectile=anti_xi0  Ekin(MeV)=7232.22  material=G4_C  --->  #secondaries=10
+	 Collision 817  projectile=proton  Ekin(MeV)=11885  material=G4_Be  --->  #secondaries=8
+	 Collision 818  projectile=sigma-  Ekin(MeV)=14259.2  material=G4_Cu  --->  #secondaries=14
+	 Collision 819  projectile=pi+  Ekin(MeV)=23653.3  material=G4_Ar  --->  #secondaries=9
+	 Collision 820  projectile=pi-  Ekin(MeV)=27149.7  material=G4_He  --->  #secondaries=9
+	 Collision 821  projectile=sigma-  Ekin(MeV)=21536.7  material=G4_Fe  --->  #secondaries=14
+	 Collision 822  projectile=anti_lambda  Ekin(MeV)=21899.5  material=G4_Cu  --->  #secondaries=23
+	 Collision 823  projectile=anti_neutron  Ekin(MeV)=18575.7  material=G4_C  --->  #secondaries=16
+	 Collision 824  projectile=sigma+  Ekin(MeV)=20430.5  material=G4_H  --->  #secondaries=4
+	 Collision 825  projectile=anti_sigma+  Ekin(MeV)=28532  material=G4_Fe  --->  #secondaries=18
+	 Collision 826  projectile=anti_xi-  Ekin(MeV)=12840.2  material=G4_Fe  --->  #secondaries=16
+	 Collision 827  projectile=proton  Ekin(MeV)=18574  material=G4_H  --->  #secondaries=6
+	 Collision 828  projectile=omega-  Ekin(MeV)=26867.6  material=G4_Si  --->  #secondaries=33
+	 Collision 829  projectile=proton  Ekin(MeV)=25577.8  material=G4_H  --->  #secondaries=7
+	 Collision 830  projectile=He3  Ekin(MeV)=13798.7  material=G4_Pb  --->  #secondaries=132
+	 Collision 831  projectile=anti_xi0  Ekin(MeV)=15211  material=G4_Ar  --->  #secondaries=23
+	 Collision 832  projectile=anti_xi0  Ekin(MeV)=28393  material=G4_He  --->  #secondaries=12
+	 Collision 833  projectile=neutron  Ekin(MeV)=18406.3  material=G4_He  --->  #secondaries=7
+	 Collision 834  projectile=proton  Ekin(MeV)=8070.52  material=G4_Ar  --->  #secondaries=16
+	 Collision 835  projectile=anti_triton  Ekin(MeV)=6582.52  material=G4_Pb  --->  #secondaries=82
+	 Collision 836  projectile=triton  Ekin(MeV)=12953.1  material=G4_He  --->  #secondaries=5
+	 Collision 837  projectile=kaon0L  Ekin(MeV)=16904  material=G4_W  --->  #secondaries=67
+	 Collision 838  projectile=anti_alpha  Ekin(MeV)=19018.2  material=G4_Al  --->  #secondaries=14
+	 Collision 839  projectile=proton  Ekin(MeV)=23302.4  material=G4_Be  --->  #secondaries=20
+	 Collision 840  projectile=kaon0L  Ekin(MeV)=11923.9  material=G4_W  --->  #secondaries=49
+	 Collision 841  projectile=anti_omega-  Ekin(MeV)=7402.25  material=G4_Al  --->  #secondaries=15
+	 Collision 842  projectile=kaon-  Ekin(MeV)=18591  material=G4_Ar  --->  #secondaries=19
+	 Collision 843  projectile=kaon-  Ekin(MeV)=11201.3  material=G4_C  --->  #secondaries=10
+	 Collision 844  projectile=omega-  Ekin(MeV)=7151.18  material=G4_Be  --->  #secondaries=14
+	 Collision 845  projectile=kaon0S  Ekin(MeV)=4621.33  material=G4_Si  --->  #secondaries=13
+	 Collision 846  projectile=kaon0S  Ekin(MeV)=15758.2  material=G4_Al  --->  #secondaries=16
+	 Collision 847  projectile=alpha  Ekin(MeV)=1221.07  material=G4_H  --->  #secondaries=3
+	 Collision 848  projectile=anti_sigma+  Ekin(MeV)=18972.3  material=G4_Al  --->  #secondaries=31
+	 Collision 849  projectile=triton  Ekin(MeV)=18955.3  material=G4_W  --->  #secondaries=27
+	 Collision 850  projectile=anti_lambda  Ekin(MeV)=19720.5  material=G4_Be  --->  #secondaries=12
+	 Collision 851  projectile=sigma-  Ekin(MeV)=24939.9  material=G4_Pb  --->  #secondaries=41
+	 Collision 852  projectile=anti_proton  Ekin(MeV)=3422.74  material=G4_W  --->  #secondaries=72
+	 Collision 853  projectile=anti_deuteron  Ekin(MeV)=16572.3  material=G4_W  --->  #secondaries=45
+	 Collision 854  projectile=omega-  Ekin(MeV)=4167.56  material=G4_Be  --->  #secondaries=10
+	 Collision 855  projectile=kaon0S  Ekin(MeV)=20481.6  material=G4_W  --->  #secondaries=53
+	 Collision 856  projectile=kaon0S  Ekin(MeV)=29693  material=G4_Si  --->  #secondaries=9
+	 Collision 857  projectile=anti_sigma-  Ekin(MeV)=2807.41  material=G4_Ar  --->  #secondaries=16
+	 Collision 858  projectile=pi-  Ekin(MeV)=25420  material=G4_H  --->  #secondaries=5
+	 Collision 859  projectile=anti_xi-  Ekin(MeV)=26961.7  material=G4_Cu  --->  #secondaries=21
+	 Collision 860  projectile=anti_alpha  Ekin(MeV)=20045.1  material=G4_Cu  --->  #secondaries=30
+	 Collision 861  projectile=omega-  Ekin(MeV)=9371.17  material=G4_Pb  --->  #secondaries=119
+	 Collision 862  projectile=anti_proton  Ekin(MeV)=25785.3  material=G4_He  --->  #secondaries=11
+	 Collision 863  projectile=xi-  Ekin(MeV)=19397.6  material=G4_Be  --->  #secondaries=5
+	 Collision 864  projectile=deuteron  Ekin(MeV)=3776.2  material=G4_H  --->  #secondaries=4
+	 Collision 865  projectile=anti_neutron  Ekin(MeV)=28228.4  material=G4_Cu  --->  #secondaries=43
+	 Collision 866  projectile=anti_neutron  Ekin(MeV)=21831.3  material=G4_He  --->  #secondaries=6
+	 Collision 867  projectile=anti_sigma+  Ekin(MeV)=20084.2  material=G4_He  --->  #secondaries=11
+	 Collision 868  projectile=lambda  Ekin(MeV)=2112.2  material=G4_Fe  --->  #secondaries=5
+	 Collision 869  projectile=anti_lambda  Ekin(MeV)=1854  material=G4_Cu  --->  #secondaries=35
+	 Collision 870  projectile=deuteron  Ekin(MeV)=3121.74  material=G4_H  --->  #secondaries=3
+	 Collision 871  projectile=anti_xi0  Ekin(MeV)=12130.7  material=G4_Ar  --->  #secondaries=13
+	 Collision 872  projectile=sigma+  Ekin(MeV)=22487.1  material=G4_Si  --->  #secondaries=31
+	 Collision 873  projectile=kaon+  Ekin(MeV)=26436.4  material=G4_Ar  --->  #secondaries=15
+	 Collision 874  projectile=anti_neutron  Ekin(MeV)=3650.59  material=G4_W  --->  #secondaries=65
+	 Collision 875  projectile=omega-  Ekin(MeV)=8049.9  material=G4_Pb  --->  #secondaries=82
+	 Collision 876  projectile=anti_deuteron  Ekin(MeV)=11957.5  material=G4_Be  --->  #secondaries=16
+	 Collision 877  projectile=He3  Ekin(MeV)=20107.2  material=G4_He  --->  #secondaries=10
+	 Collision 878  projectile=triton  Ekin(MeV)=11938  material=G4_W  --->  #secondaries=86
+	 Collision 879  projectile=anti_deuteron  Ekin(MeV)=3203.01  material=G4_Al  --->  #secondaries=18
+	 Collision 880  projectile=xi0  Ekin(MeV)=10500.2  material=G4_H  --->  #secondaries=5
+	 Collision 881  projectile=neutron  Ekin(MeV)=28199.6  material=G4_He  --->  #secondaries=10
+	 Collision 882  projectile=omega-  Ekin(MeV)=24152.1  material=G4_Fe  --->  #secondaries=49
+	 Collision 883  projectile=anti_alpha  Ekin(MeV)=21090.1  material=G4_Be  --->  #secondaries=10
+	 Collision 884  projectile=proton  Ekin(MeV)=6253.65  material=G4_Cu  --->  #secondaries=33
+	 Collision 885  projectile=anti_alpha  Ekin(MeV)=22471.9  material=G4_W  --->  #secondaries=122
+	 Collision 886  projectile=anti_alpha  Ekin(MeV)=6776.91  material=G4_H  --->  #secondaries=4
+	 Collision 887  projectile=anti_lambda  Ekin(MeV)=11931  material=G4_Si  --->  #secondaries=25
+	 Collision 888  projectile=anti_xi-  Ekin(MeV)=11859  material=G4_Al  --->  #secondaries=21
+	 Collision 889  projectile=triton  Ekin(MeV)=8581.57  material=G4_He  --->  #secondaries=11
+	 Collision 890  projectile=anti_deuteron  Ekin(MeV)=14626  material=G4_W  --->  #secondaries=63
+	 Collision 891  projectile=anti_lambda  Ekin(MeV)=28834.9  material=G4_W  --->  #secondaries=50
+	 Collision 892  projectile=anti_He3  Ekin(MeV)=2847.71  material=G4_C  --->  #secondaries=15
+	 Collision 893  projectile=anti_xi0  Ekin(MeV)=29533.9  material=G4_Pb  --->  #secondaries=43
+	 Collision 894  projectile=anti_deuteron  Ekin(MeV)=24481.3  material=G4_Ar  --->  #secondaries=37
+	 Collision 895  projectile=anti_xi-  Ekin(MeV)=14351.3  material=G4_Cu  --->  #secondaries=39
+	 Collision 896  projectile=xi0  Ekin(MeV)=19069.2  material=G4_H  --->  #secondaries=7
+	 Collision 897  projectile=anti_alpha  Ekin(MeV)=20026.1  material=G4_W  --->  #secondaries=134
+	 Collision 898  projectile=anti_omega-  Ekin(MeV)=22961.6  material=G4_W  --->  #secondaries=44
+	 Collision 899  projectile=pi-  Ekin(MeV)=13874.7  material=G4_Pb  --->  #secondaries=88
+	 Collision 900  projectile=lambda  Ekin(MeV)=15183.9  material=G4_Cu  --->  #secondaries=43
+	 	 List of produced secondaries: 
+	 	 	 j=0	neutron	 p=(2763.07,3588.9,8424.119610.58) MeV
+	 	 	 j=1	pi+	 p=(111.112,456.455,570.352751.983) MeV
+	 	 	 j=2	sigma0	 p=(-373.171,37.5468,245.2291274.05) MeV
+	 	 	 j=3	neutron	 p=(-192.049,-428.195,763.2381298.29) MeV
+	 	 	 j=4	pi+	 p=(372.965,263.444,377.45608.65) MeV
+	 	 	 j=5	pi-	 p=(125.837,83.4826,356.615411.653) MeV
+	 	 	 j=6	neutron	 p=(167.696,-285.974,-91.36381000.52) MeV
+	 	 	 j=7	neutron	 p=(213.247,-233.385,-142.6341001.53) MeV
+	 	 	 j=8	proton	 p=(-234.936,-295.262,-214.0041033.7) MeV
+	 	 	 j=9	neutron	 p=(251.092,-151.428,13.7488984.352) MeV
+	 	 	 j=10	neutron	 p=(-52.7099,-196.885,506.0731086.48) MeV
+	 	 	 j=11	proton	 p=(-12.7622,313.314,205.9491010.49) MeV
+	 	 	 j=12	pi0	 p=(37.6941,201.408,1225.481249.8) MeV
+	 	 	 j=13	pi-	 p=(657.777,128.232,645.367940.794) MeV
+	 	 	 j=14	pi-	 p=(26.6087,222.773,-57.9328270.503) MeV
+	 	 	 j=15	proton	 p=(69.3873,90.0626,64.8811947.359) MeV
+	 	 	 j=16	neutron	 p=(184.052,249.966,296.0631032.86) MeV
+	 	 	 j=17	proton	 p=(176.246,166.736,-147.92980.356) MeV
+	 	 	 j=18	proton	 p=(110.425,474.296,563.421197.89) MeV
+	 	 	 j=19	neutron	 p=(160.504,-162.456,-56.4043968.565) MeV
+	 	 	 j=20	proton	 p=(-15.8123,47.617,-277.907979.849) MeV
+	 	 	 j=21	neutron	 p=(58.9562,-50.796,-232.925971.13) MeV
+	 	 	 j=22	proton	 p=(-303.604,-185.409,-107.0851009.14) MeV
+	 	 	 j=23	proton	 p=(92.8827,249.049,-23.4284975.477) MeV
+	 	 	 j=24	deuteron	 p=(-108.538,-326.129,-166.5891914.11) MeV
+	 	 	 j=25	proton	 p=(220.953,109.449,4.11668970.139) MeV
+	 	 	 j=26	Ne21	 p=(14.7398,899.821,1025.6819598.1) MeV
+	 	 	 j=27	neutron	 p=(-6.95551,-10.4022,169.15954.752) MeV
+	 	 	 j=28	neutron	 p=(86.2455,141.386,102.876959.581) MeV
+	 	 	 j=29	deuteron	 p=(-45.3364,-45.7741,221.1891889.71) MeV
+	 	 	 j=30	proton	 p=(38.6051,31.8495,274.179978.792) MeV
+	 	 	 j=31	neutron	 p=(-46.4513,4.94103,145.329951.885) MeV
+	 	 	 j=32	triton	 p=(204.172,-231.089,23.10122825.89) MeV
+	 	 	 j=33	deuteron	 p=(13.3426,-152.575,-96.01851884.3) MeV
+	 	 	 j=34	He3	 p=(-255.844,18.6627,2.442652820.08) MeV
+	 	 	 j=35	neutron	 p=(-67.3224,-76.5864,97.2166950.069) MeV
+	 	 	 j=36	proton	 p=(1.08488,44.9803,-116.909946.597) MeV
+	 	 	 j=37	neutron	 p=(46.6255,108.638,-9.65322947.023) MeV
+	 	 	 j=38	deuteron	 p=(-28.8755,130.558,-67.69861881.59) MeV
+	 	 	 j=39	deuteron	 p=(-120.216,49.3637,101.361882.84) MeV
+	 	 	 j=40	proton	 p=(4.07938,39.943,122.208947.049) MeV
+	 	 	 j=41	gamma	 p=(4.09687,-1.03239,0.001835174.22495) MeV
+	 	 	 j=42	gamma	 p=(0.149947,0.256517,-0.1885460.351902) MeV
+	 Collision 901  projectile=proton  Ekin(MeV)=11102.8  material=G4_Fe  --->  #secondaries=20
+	 Collision 902  projectile=triton  Ekin(MeV)=24522.8  material=G4_Be  --->  #secondaries=15
+	 Collision 903  projectile=neutron  Ekin(MeV)=18682.6  material=G4_Ar  --->  #secondaries=23
+	 Collision 904  projectile=anti_omega-  Ekin(MeV)=1632.77  material=G4_C  --->  #secondaries=10
+	 Collision 905  projectile=pi-  Ekin(MeV)=7345.97  material=G4_Be  --->  #secondaries=6
+	 Collision 906  projectile=proton  Ekin(MeV)=15439.8  material=G4_C  --->  #secondaries=9
+	 Collision 907  projectile=sigma-  Ekin(MeV)=3114.48  material=G4_Fe  --->  #secondaries=11
+	 Collision 908  projectile=lambda  Ekin(MeV)=3286.51  material=G4_C  --->  #secondaries=11
+	 Collision 909  projectile=anti_sigma+  Ekin(MeV)=29813.9  material=G4_Fe  --->  #secondaries=21
+	 Collision 910  projectile=kaon+  Ekin(MeV)=11948.9  material=G4_Be  --->  #secondaries=11
+	 Collision 911  projectile=anti_xi0  Ekin(MeV)=1555.37  material=G4_Be  --->  #secondaries=9
+	 Collision 912  projectile=sigma-  Ekin(MeV)=27728.1  material=G4_Al  --->  #secondaries=29
+	 Collision 913  projectile=pi+  Ekin(MeV)=28981.2  material=G4_W  --->  #secondaries=48
+	 Collision 914  projectile=He3  Ekin(MeV)=4155.43  material=G4_Fe  --->  #secondaries=13
+	 Collision 915  projectile=kaon0L  Ekin(MeV)=1889.04  material=G4_He  --->  #secondaries=4
+	 Collision 916  projectile=kaon+  Ekin(MeV)=10331  material=G4_He  --->  #secondaries=8
+	 Collision 917  projectile=deuteron  Ekin(MeV)=25877.3  material=G4_He  --->  #secondaries=10
+	 Collision 918  projectile=omega-  Ekin(MeV)=15017.6  material=G4_Ar  --->  #secondaries=32
+	 Collision 919  projectile=sigma+  Ekin(MeV)=17516.2  material=G4_C  --->  #secondaries=18
+	 Collision 920  projectile=triton  Ekin(MeV)=1025.8  material=G4_Ar  --->  #secondaries=18
+	 Collision 921  projectile=sigma+  Ekin(MeV)=27194.1  material=G4_Al  --->  #secondaries=19
+	 Collision 922  projectile=anti_alpha  Ekin(MeV)=12989  material=G4_Fe  --->  #secondaries=20
+	 Collision 923  projectile=proton  Ekin(MeV)=1968.41  material=G4_Al  --->  #secondaries=7
+	 Collision 924  projectile=anti_triton  Ekin(MeV)=25477.7  material=G4_Pb  --->  #secondaries=157
+	 Collision 925  projectile=anti_deuteron  Ekin(MeV)=9611.92  material=G4_W  --->  #secondaries=115
+	 Collision 926  projectile=deuteron  Ekin(MeV)=21454.8  material=G4_Fe  --->  #secondaries=11
+	 Collision 927  projectile=anti_omega-  Ekin(MeV)=26941  material=G4_Pb  --->  #secondaries=39
+	 Collision 928  projectile=lambda  Ekin(MeV)=15513.7  material=G4_Si  --->  #secondaries=16
+	 Collision 929  projectile=anti_sigma+  Ekin(MeV)=13029.4  material=G4_C  --->  #secondaries=15
+	 Collision 930  projectile=He3  Ekin(MeV)=12659.6  material=G4_Si  --->  #secondaries=28
+	 Collision 931  projectile=xi-  Ekin(MeV)=8702.02  material=G4_Ar  --->  #secondaries=33
+	 Collision 932  projectile=triton  Ekin(MeV)=17761.7  material=G4_Al  --->  #secondaries=17
+	 Collision 933  projectile=anti_xi0  Ekin(MeV)=28903.3  material=G4_Ar  --->  #secondaries=31
+	 Collision 934  projectile=anti_neutron  Ekin(MeV)=26048  material=G4_W  --->  #secondaries=74
+	 Collision 935  projectile=anti_lambda  Ekin(MeV)=6030.22  material=G4_Pb  --->  #secondaries=58
+	 Collision 936  projectile=anti_alpha  Ekin(MeV)=11897.5  material=G4_C  --->  #secondaries=23
+	 Collision 937  projectile=omega-  Ekin(MeV)=8679.56  material=G4_Be  --->  #secondaries=7
+	 Collision 938  projectile=sigma-  Ekin(MeV)=12655.1  material=G4_C  --->  #secondaries=15
+	 Collision 939  projectile=kaon0L  Ekin(MeV)=27064.3  material=G4_H  --->  #secondaries=6
+	 Collision 940  projectile=alpha  Ekin(MeV)=9054.43  material=G4_C  --->  #secondaries=13
+	 Collision 941  projectile=omega-  Ekin(MeV)=21209.8  material=G4_Si  --->  #secondaries=28
+	 Collision 942  projectile=xi-  Ekin(MeV)=1177.87  material=G4_Al  --->  #secondaries=5
+	 Collision 943  projectile=kaon0S  Ekin(MeV)=7961.72  material=G4_Ar  --->  #secondaries=8
+	 Collision 944  projectile=pi-  Ekin(MeV)=19421.9  material=G4_Si  --->  #secondaries=31
+	 Collision 945  projectile=anti_sigma-  Ekin(MeV)=7625.82  material=G4_H  --->  #secondaries=4
+	 Collision 946  projectile=anti_alpha  Ekin(MeV)=29697.1  material=G4_Si  --->  #secondaries=23
+	 Collision 947  projectile=anti_sigma+  Ekin(MeV)=19929.2  material=G4_Pb  --->  #secondaries=42
+	 Collision 948  projectile=triton  Ekin(MeV)=25902.7  material=G4_Be  --->  #secondaries=18
+	 Collision 949  projectile=neutron  Ekin(MeV)=8635.69  material=G4_Fe  --->  #secondaries=10
+	 Collision 950  projectile=sigma+  Ekin(MeV)=3563.73  material=G4_He  --->  #secondaries=5
+	 Collision 951  projectile=alpha  Ekin(MeV)=17956.4  material=G4_Ar  --->  #secondaries=40
+	 Collision 952  projectile=anti_He3  Ekin(MeV)=8736.85  material=G4_Fe  --->  #secondaries=41
+	 Collision 953  projectile=proton  Ekin(MeV)=8266.78  material=G4_Si  --->  #secondaries=29
+	 Collision 954  projectile=xi-  Ekin(MeV)=14380.3  material=G4_Be  --->  #secondaries=6
+	 Collision 955  projectile=sigma-  Ekin(MeV)=13441.8  material=G4_W  --->  #secondaries=53
+	 Collision 956  projectile=sigma-  Ekin(MeV)=10236.3  material=G4_Ar  --->  #secondaries=33
+	 Collision 957  projectile=proton  Ekin(MeV)=27479.1  material=G4_Ar  --->  #secondaries=38
+	 Collision 958  projectile=lambda  Ekin(MeV)=29567.8  material=G4_Al  --->  #secondaries=9
+	 Collision 959  projectile=anti_xi0  Ekin(MeV)=5677.51  material=G4_Al  --->  #secondaries=29
+	 Collision 960  projectile=triton  Ekin(MeV)=16217.6  material=G4_Si  --->  #secondaries=37
+	 Collision 961  projectile=He3  Ekin(MeV)=4470.42  material=G4_He  --->  #secondaries=7
+	 Collision 962  projectile=anti_sigma-  Ekin(MeV)=7889.38  material=G4_Cu  --->  #secondaries=17
+	 Collision 963  projectile=sigma+  Ekin(MeV)=24638.9  material=G4_Be  --->  #secondaries=13
+	 Collision 964  projectile=anti_sigma+  Ekin(MeV)=26946  material=G4_Ar  --->  #secondaries=32
+	 Collision 965  projectile=sigma+  Ekin(MeV)=13264.4  material=G4_C  --->  #secondaries=16
+	 Collision 966  projectile=kaon0L  Ekin(MeV)=6562.18  material=G4_H  --->  #secondaries=6
+	 Collision 967  projectile=kaon0S  Ekin(MeV)=20755.4  material=G4_H  --->  #secondaries=8
+	 Collision 968  projectile=He3  Ekin(MeV)=28833.1  material=G4_He  --->  #secondaries=14
+	 Collision 969  projectile=xi0  Ekin(MeV)=10520.7  material=G4_C  --->  #secondaries=12
+	 Collision 970  projectile=triton  Ekin(MeV)=18677.2  material=G4_Fe  --->  #secondaries=52
+	 Collision 971  projectile=neutron  Ekin(MeV)=29156.7  material=G4_W  --->  #secondaries=33
+	 Collision 972  projectile=anti_proton  Ekin(MeV)=28246.8  material=G4_Al  --->  #secondaries=16
+	 Collision 973  projectile=pi+  Ekin(MeV)=16412.4  material=G4_Al  --->  #secondaries=14
+	 Collision 974  projectile=alpha  Ekin(MeV)=4732.65  material=G4_H  --->  #secondaries=6
+	 Collision 975  projectile=anti_xi0  Ekin(MeV)=24415.7  material=G4_Be  --->  #secondaries=9
+	 Collision 976  projectile=lambda  Ekin(MeV)=7098.25  material=G4_He  --->  #secondaries=5
+	 Collision 977  projectile=alpha  Ekin(MeV)=21998.6  material=G4_He  --->  #secondaries=15
+	 Collision 978  projectile=anti_alpha  Ekin(MeV)=23909  material=G4_Si  --->  #secondaries=41
+	 Collision 979  projectile=He3  Ekin(MeV)=27978.2  material=G4_Cu  --->  #secondaries=22
+	 Collision 980  projectile=anti_lambda  Ekin(MeV)=25777  material=G4_Be  --->  #secondaries=17
+	 Collision 981  projectile=anti_deuteron  Ekin(MeV)=2503.17  material=G4_Pb  --->  #secondaries=56
+	 Collision 982  projectile=kaon+  Ekin(MeV)=22141.4  material=G4_Si  --->  #secondaries=15
+	 Collision 983  projectile=anti_He3  Ekin(MeV)=4443.12  material=G4_Fe  --->  #secondaries=10
+	 Collision 984  projectile=pi-  Ekin(MeV)=26527.4  material=G4_W  --->  #secondaries=35
+	 Collision 985  projectile=sigma+  Ekin(MeV)=20586.1  material=G4_Si  --->  #secondaries=8
+	 Collision 986  projectile=anti_proton  Ekin(MeV)=6931.01  material=G4_Cu  --->  #secondaries=32
+	 Collision 987  projectile=sigma-  Ekin(MeV)=26852.6  material=G4_C  --->  #secondaries=8
+	 Collision 988  projectile=anti_alpha  Ekin(MeV)=14604.8  material=G4_Fe  --->  #secondaries=60
+	 Collision 989  projectile=kaon+  Ekin(MeV)=5795.71  material=G4_Be  --->  #secondaries=12
+	 Collision 990  projectile=omega-  Ekin(MeV)=13098.1  material=G4_C  --->  #secondaries=9
+	 Collision 991  projectile=sigma+  Ekin(MeV)=24658.6  material=G4_He  --->  #secondaries=11
+	 Collision 992  projectile=xi0  Ekin(MeV)=22710.1  material=G4_Al  --->  #secondaries=24
+	 Collision 993  projectile=omega-  Ekin(MeV)=2929.66  material=G4_Si  --->  #secondaries=3
+	 Collision 994  projectile=sigma+  Ekin(MeV)=27928.6  material=G4_Pb  --->  #secondaries=60
+	 Collision 995  projectile=sigma+  Ekin(MeV)=13777.3  material=G4_He  --->  #secondaries=10
+	 Collision 996  projectile=pi-  Ekin(MeV)=29847  material=G4_C  --->  #secondaries=18
+	 Collision 997  projectile=xi0  Ekin(MeV)=3417.66  material=G4_Ar  --->  #secondaries=14
+	 Collision 998  projectile=pi-  Ekin(MeV)=21817.2  material=G4_Be  --->  #secondaries=18
+	 Collision 999  projectile=xi-  Ekin(MeV)=29376.5  material=G4_H  --->  #secondaries=9
+
+ Final random number = 0.13591
+=== End of test ===
